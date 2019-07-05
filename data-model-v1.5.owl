@@ -329,6 +329,7 @@
         <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
         <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
         <Class abbreviatedIRI="frbr:F5_Item"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </DisjointUnion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
