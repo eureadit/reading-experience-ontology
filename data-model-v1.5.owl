@@ -63,6 +63,9 @@
         <Class abbreviatedIRI="readit:GroupDisposition"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="readit:Habit"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="readit:Medium"/>
     </Declaration>
     <Declaration>
@@ -99,6 +102,9 @@
         <Class abbreviatedIRI="readit:StateOfMind"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </Declaration>
     <Declaration>
@@ -132,6 +138,12 @@
         <ObjectProperty abbreviatedIRI="readit:follows"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:habit"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
     </Declaration>
     <Declaration>
@@ -159,6 +171,9 @@
         <ObjectProperty abbreviatedIRI="readit:partOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:politicalStance"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </Declaration>
     <Declaration>
@@ -181,9 +196,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://schema.org/nationality"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="readit:activity"/>
@@ -343,10 +355,6 @@
         <Class abbreviatedIRI="frbr:F5_Item"/>
         <Class abbreviatedIRI="readit:Reader"/>
     </DisjointUnion>
-    <EquivalentObjectProperties>
-        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
-        <ObjectProperty IRI="https://schema.org/nationality"/>
-    </EquivalentObjectProperties>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
@@ -463,6 +471,18 @@
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
     </IrreflexiveObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
+        <Class abbreviatedIRI="readit:Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
+        <Class abbreviatedIRI="readit:Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
+        <Class abbreviatedIRI="readit:Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:causingA"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </ObjectPropertyDomain>
@@ -485,6 +505,14 @@
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:follows"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
+        <Class abbreviatedIRI="readit:Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:habit"/>
+        <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
@@ -513,6 +541,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
         <Class abbreviatedIRI="readit:StateOfMind"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:politicalStance"/>
+        <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
@@ -557,6 +589,14 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:follows"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
+        <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:habit"/>
+        <Class abbreviatedIRI="readit:Habit"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
