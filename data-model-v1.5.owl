@@ -7,16 +7,17 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7">
     <Prefix name="" IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7"/>
+    <Prefix name="crm" IRI="http://erlangen-crm.org/current/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://erlangen-crm.org/current/E5_Event"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Achievment"/>
@@ -163,6 +164,9 @@
         <DataProperty IRI="#activity"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#analysis"/>
     </Declaration>
     <Declaration>
@@ -184,8 +188,8 @@
         <DataProperty IRI="#transportation"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://erlangen-crm.org/current/E5_Event"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Achievment"/>
@@ -201,7 +205,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Alteration"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Content"/>
@@ -233,7 +237,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Reader"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Reader"/>
@@ -249,11 +253,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReadingProcess"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReadingProcess"/>
-        <Class IRI="http://erlangen-crm.org/current/E5_Event"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Remembrance"/>
@@ -273,18 +277,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StateOfMedium"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StateOfMind"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://erlangen-crm.org/current/E5_Event"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
         <Class IRI="#Alteration"/>
         <Class IRI="#StateOfMedium"/>
     </DisjointClasses>
@@ -424,11 +428,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#coOccurringWith"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#comparableWith"/>
-        <Class IRI="http://erlangen-crm.org/current/E5_Event"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#descriptionOf"/>
@@ -440,7 +444,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#follows"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#inAStateOf"/>
@@ -496,11 +500,11 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#coOccurringWith"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#comparableWith"/>
-        <Class IRI="http://erlangen-crm.org/current/E5_Event"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#descriptionOf"/>
@@ -512,7 +516,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#follows"/>
-        <Class IRI="http://erlangen-crm.org/current/E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#inAStateOf"/>
@@ -567,6 +571,10 @@
         <ObjectProperty IRI="#preceeds"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
+        <DataProperty IRI="#age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#analysis"/>
         <DataProperty IRI="#activity"/>
     </SubDataPropertyOf>
@@ -593,6 +601,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#activity"/>
         <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Reader"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#analysis"/>
@@ -628,6 +640,10 @@
             <Literal>dominant</Literal>
             <Literal>marginal</Literal>
         </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#analysis"/>
