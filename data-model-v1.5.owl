@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -22,6 +23,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#inAStateOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Disposition"/>
@@ -123,10 +127,10 @@
         <Class IRI="#EthicalDisposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Medium"/>
+        <ObjectProperty IRI="#comparableWith"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#comparableWith"/>
+        <Class IRI="#Medium"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Content"/>
@@ -566,6 +570,10 @@
         <ObjectProperty IRI="#preceeds"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
+        <DataProperty IRI="#age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#analysis"/>
         <DataProperty IRI="#activity"/>
     </SubDataPropertyOf>
@@ -592,6 +600,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#activity"/>
         <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Reader"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#analysis"/>
@@ -627,6 +639,10 @@
             <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
             <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
         </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#analysis"/>
