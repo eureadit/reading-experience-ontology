@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#isPremiseOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dedication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alteration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inAStateOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involving"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEffectOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroupDisposition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#focus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#situationOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#providingAccessTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causingA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inApproaching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Session"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#engagement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#worseThan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReadingFrame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AestheticDisposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#engagedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#descriptionOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#performance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involvingAMedium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReadingProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#betterThan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reader"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coOccurringWith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reading"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remembrance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EthicalDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comparableWith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkillDisposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#readingThrough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateOfMind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReadingResource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#perception"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involvingAContent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAStatusOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reading"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preceeds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#follows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfReflection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Achievment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateOfMedium"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#towardInteractingWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#partOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Achievment"/>
+        <Class IRI="#StateOfMind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AestheticDisposition"/>
+        <Class IRI="#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aim"/>
+        <Class IRI="#StateOfMind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alteration"/>
+        <Class IRI="#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content"/>
+        <Class IRI="#ReadingResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <Class IRI="#StateOfMind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotion"/>
+        <Class IRI="#StateOfMind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EthicalDisposition"/>
+        <Class IRI="#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experience"/>
+        <Class IRI="#ReadingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroupDisposition"/>
+        <Class IRI="#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium"/>
+        <Class IRI="#ReadingResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reader"/>
+        <Class IRI="#Medium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reader"/>
+        <Class IRI="#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reading"/>
+        <Class IRI="#ReadingFrame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReadingFrame"/>
+        <Class IRI="#ReadingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReadingProcess"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReadingProcess"/>
+        <Class IRI="#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remembrance"/>
+        <Class IRI="#StateOfMind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfReflection"/>
+        <Class IRI="#StateOfMind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Session"/>
+        <Class IRI="#ReadingFrame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkillDisposition"/>
+        <Class IRI="#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateOfMedium"/>
+        <Class IRI="#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateOfMind"/>
+        <Class IRI="#TemporalEntity"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Alteration"/>
+        <Class IRI="#Event"/>
+        <Class IRI="#StateOfMedium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alteration"/>
+        <Class IRI="#Reader"/>
+        <Class IRI="#ReadingProcess"/>
+        <Class IRI="#StateOfMedium"/>
+        <Class IRI="#StateOfMind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Content"/>
+        <Class IRI="#Medium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Person"/>
+        <Class IRI="#ReadingResource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Person"/>
+        <Class IRI="#TemporalEntity"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#betterThan"/>
+        <ObjectProperty IRI="#comparableWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#involvingAContent"/>
+        <ObjectProperty IRI="#involving"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#involvingAMedium"/>
+        <ObjectProperty IRI="#involving"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAStatusOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#worseThan"/>
+        <ObjectProperty IRI="#comparableWith"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#betterThan"/>
+        <ObjectProperty IRI="#worseThan"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#preceeds"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#inAStateOf"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#coOccurringWith"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#comparableWith"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#relatedTo"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#betterThan"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#causingA"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#descriptionOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#engagedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#follows"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#inAStateOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#inApproaching"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#involving"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#involvingAContent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#involvingAMedium"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isAStatusOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isEffectOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPremiseOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#partOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#preceeds"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#providingAccessTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#reading"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#readingThrough"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#situationOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#towardInteractingWith"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#worseThan"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#betterThan"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#follows"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#preceeds"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#worseThan"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causingA"/>
+        <Class IRI="#ReadingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coOccurringWith"/>
+        <Class IRI="#TemporalEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#comparableWith"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#descriptionOf"/>
+        <Class IRI="#Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#engagedIn"/>
+        <Class IRI="#Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#TemporalEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inAStateOf"/>
+        <Class IRI="#Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inApproaching"/>
+        <Class IRI="#Disposition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#involvingAContent"/>
+        <Class IRI="#ReadingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#involvingAMedium"/>
+        <Class IRI="#ReadingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAStatusOf"/>
+        <Class IRI="#StateOfMedium"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEffectOf"/>
+        <Class IRI="#StateOfMind"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPremiseOf"/>
+        <Class IRI="#StateOfMind"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#providingAccessTo"/>
+        <Class IRI="#Medium"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reading"/>
+        <Class IRI="#Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#readingThrough"/>
+        <Class IRI="#Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatedTo"/>
+        <Class IRI="#Alteration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#towardInteractingWith"/>
+        <Class IRI="#Disposition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causingA"/>
+        <Class IRI="#StateOfMedium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coOccurringWith"/>
+        <Class IRI="#TemporalEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#comparableWith"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#descriptionOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#engagedIn"/>
+        <Class IRI="#ReadingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#TemporalEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inAStateOf"/>
+        <Class IRI="#StateOfMind"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inApproaching"/>
+        <Class IRI="#ReadingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#involvingAContent"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#involvingAMedium"/>
+        <Class IRI="#Medium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAStatusOf"/>
+        <Class IRI="#Medium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEffectOf"/>
+        <Class IRI="#ReadingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPremiseOf"/>
+        <Class IRI="#ReadingFrame"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#providingAccessTo"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reading"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#readingThrough"/>
+        <Class IRI="#Medium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatedTo"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#towardInteractingWith"/>
+        <Class IRI="#ReadingResource"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#preceeds"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#analysis"/>
+        <DataProperty IRI="#activity"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dedication"/>
+        <DataProperty IRI="#engagement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#focus"/>
+        <DataProperty IRI="#engagement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#perception"/>
+        <DataProperty IRI="#activity"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#performance"/>
+        <DataProperty IRI="#activity"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#transportation"/>
+        <DataProperty IRI="#engagement"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#activity"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#analysis"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dedication"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#engagement"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#focus"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#perception"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#performance"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transportation"/>
+        <Class IRI="#ReadingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#activity"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#analysis"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dedication"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#engagement"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#focus"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#perception"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#performance"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transportation"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#comparableWith</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Source Driven: comparison between different readings</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
