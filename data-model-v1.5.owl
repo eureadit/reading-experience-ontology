@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7"
+     xml:base="https://readit-project.eu/ont/datamodel"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7">
+     ontologyIRI="https://readit-project.eu/ont/datamodel">
     <Prefix name="" IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7"/>
     <Prefix name="crm" IRI="http://erlangen-crm.org/current/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="frbr" IRI="http://iflastandards.info/ns/fr/frbr/frbroo/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
@@ -20,267 +21,279 @@
         <Class abbreviatedIRI="crm:E5_Event"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Achievment"/>
+        <Class abbreviatedIRI="frbr:F1_Work"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AestheticDisposition"/>
+        <Class abbreviatedIRI="frbr:F2_Expression"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Aim"/>
+        <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Alteration"/>
+        <Class abbreviatedIRI="frbr:F5_Item"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Content"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Achievment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Disposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#AestheticDisposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Emotion"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Aim"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EthicalDisposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Alteration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Experience"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#GroupDisposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Medium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Emotion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reader"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#EthicalDisposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reading"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Experience"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ReadingFrame"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#GroupDisposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ReadingProcess"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ReadingResource"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Remembrance"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reading"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SelfReflection"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingFrame"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Session"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SkillDisposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingResource"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StateOfMedium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Remembrance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#SelfReflection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Session"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#SkillDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMedium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#betterThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#causingA"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#causingA"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#coOccurringWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#coOccurringWith"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#comparableWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#descriptionOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#descriptionOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#engagedIn"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#follows"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#inAStateOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inAStateOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#inApproaching"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inApproaching"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#involving"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involving"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#involvingAContent"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAContent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#involvingAMedium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAMedium"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isAStatusOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isAStatusOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isEffectOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isEffectOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isPremiseOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isPremiseOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#partOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#partOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#preceeds"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#preceeds"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#providingAccessTo"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#providingAccessTo"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#reading"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#reading"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#readingThrough"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#readingThrough"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#relatedTo"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#relatedTo"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#situationOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#situationOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#towardInteractingWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#towardInteractingWith"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#worseThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#worseThan"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#activity"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#activity"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#age"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#age"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#analysis"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#analysis"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#dedication"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#dedication"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#engagement"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagement"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#focus"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#focus"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#perception"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#perception"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#performance"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#performance"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#transportation"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#transportation"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="crm:E5_Event"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Achievment"/>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Achievment"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#AestheticDisposition"/>
-        <Class IRI="#Disposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#AestheticDisposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Aim"/>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Aim"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Alteration"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Alteration"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Content"/>
-        <Class IRI="#ReadingResource"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingResource"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Disposition"/>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Emotion"/>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Emotion"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EthicalDisposition"/>
-        <Class IRI="#Disposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#EthicalDisposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Experience"/>
-        <Class IRI="#ReadingProcess"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Experience"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#GroupDisposition"/>
-        <Class IRI="#Disposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#GroupDisposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Medium"/>
-        <Class IRI="#ReadingResource"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingResource"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Reader"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Reader"/>
-        <Class IRI="#Medium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Reading"/>
-        <Class IRI="#ReadingFrame"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reading"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingFrame"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ReadingFrame"/>
-        <Class IRI="#ReadingProcess"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingFrame"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ReadingProcess"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ReadingProcess"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
         <Class abbreviatedIRI="crm:E5_Event"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Remembrance"/>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Remembrance"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SelfReflection"/>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#SelfReflection"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Session"/>
-        <Class IRI="#ReadingFrame"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Session"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingFrame"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SkillDisposition"/>
-        <Class IRI="#Disposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#SkillDisposition"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#StateOfMedium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMedium"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </SubClassOf>
     <DisjointClasses>
@@ -289,371 +302,381 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class abbreviatedIRI="crm:E5_Event"/>
-        <Class IRI="#Alteration"/>
-        <Class IRI="#StateOfMedium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Alteration"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMedium"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Alteration"/>
-        <Class IRI="#Reader"/>
-        <Class IRI="#ReadingProcess"/>
-        <Class IRI="#StateOfMedium"/>
-        <Class IRI="#StateOfMind"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Alteration"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMedium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Content"/>
-        <Class IRI="#Medium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#ReadingResource"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingResource"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
+        <Class abbreviatedIRI="frbr:F1_Work"/>
+        <Class abbreviatedIRI="frbr:F2_Expression"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
+        <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
+        <Class abbreviatedIRI="frbr:F5_Item"/>
+    </DisjointUnion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#betterThan"/>
-        <ObjectProperty IRI="#comparableWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#involvingAContent"/>
-        <ObjectProperty IRI="#involving"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAContent"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involving"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#involvingAMedium"/>
-        <ObjectProperty IRI="#involving"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAMedium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involving"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#isAStatusOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isAStatusOf"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#worseThan"/>
-        <ObjectProperty IRI="#comparableWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#worseThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#betterThan"/>
-        <ObjectProperty IRI="#worseThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#worseThan"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#follows"/>
-        <ObjectProperty IRI="#preceeds"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#follows"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#preceeds"/>
     </InverseObjectProperties>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="#inAStateOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inAStateOf"/>
     </InverseFunctionalObjectProperty>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="#coOccurringWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#coOccurringWith"/>
     </SymmetricObjectProperty>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="#comparableWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith"/>
     </SymmetricObjectProperty>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="#relatedTo"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#relatedTo"/>
     </SymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#betterThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#causingA"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#causingA"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#descriptionOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#descriptionOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#engagedIn"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagedIn"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#follows"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#inAStateOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inAStateOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#inApproaching"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inApproaching"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#involving"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involving"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#involvingAContent"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAContent"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#involvingAMedium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAMedium"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#isAStatusOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isAStatusOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#isEffectOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isEffectOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#isPremiseOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isPremiseOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#partOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#partOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#preceeds"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#preceeds"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#providingAccessTo"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#providingAccessTo"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#reading"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#reading"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#readingThrough"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#readingThrough"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#situationOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#situationOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#towardInteractingWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#towardInteractingWith"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#worseThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#worseThan"/>
     </AsymmetricObjectProperty>
     <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#betterThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#follows"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#preceeds"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#preceeds"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#worseThan"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#worseThan"/>
     </IrreflexiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#causingA"/>
-        <Class IRI="#ReadingProcess"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#causingA"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#coOccurringWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#coOccurringWith"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#comparableWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith"/>
         <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#descriptionOf"/>
-        <Class IRI="#Reader"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#descriptionOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#engagedIn"/>
-        <Class IRI="#Reader"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagedIn"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#follows"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#inAStateOf"/>
-        <Class IRI="#Reader"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inAStateOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#inApproaching"/>
-        <Class IRI="#Disposition"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inApproaching"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#involvingAContent"/>
-        <Class IRI="#ReadingProcess"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAContent"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#involvingAMedium"/>
-        <Class IRI="#ReadingProcess"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAMedium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isAStatusOf"/>
-        <Class IRI="#StateOfMedium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isAStatusOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMedium"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isEffectOf"/>
-        <Class IRI="#StateOfMind"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isEffectOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isPremiseOf"/>
-        <Class IRI="#StateOfMind"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isPremiseOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#providingAccessTo"/>
-        <Class IRI="#Medium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#providingAccessTo"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#reading"/>
-        <Class IRI="#Reader"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#reading"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#readingThrough"/>
-        <Class IRI="#Reader"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#readingThrough"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#relatedTo"/>
-        <Class IRI="#Alteration"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#relatedTo"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Alteration"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#towardInteractingWith"/>
-        <Class IRI="#Disposition"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#towardInteractingWith"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Disposition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#causingA"/>
-        <Class IRI="#StateOfMedium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#causingA"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMedium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#coOccurringWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#coOccurringWith"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#comparableWith"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith"/>
         <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#descriptionOf"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#descriptionOf"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#engagedIn"/>
-        <Class IRI="#ReadingProcess"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagedIn"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#follows"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#inAStateOf"/>
-        <Class IRI="#StateOfMind"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inAStateOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#StateOfMind"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#inApproaching"/>
-        <Class IRI="#ReadingProcess"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#inApproaching"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#involvingAContent"/>
-        <Class IRI="#Content"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAContent"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#involvingAMedium"/>
-        <Class IRI="#Medium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#involvingAMedium"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isAStatusOf"/>
-        <Class IRI="#Medium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isAStatusOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isEffectOf"/>
-        <Class IRI="#ReadingProcess"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isEffectOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isPremiseOf"/>
-        <Class IRI="#ReadingFrame"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#isPremiseOf"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingFrame"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#providingAccessTo"/>
-        <Class IRI="#Content"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#providingAccessTo"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#reading"/>
-        <Class IRI="#Content"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#reading"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#readingThrough"/>
-        <Class IRI="#Medium"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#readingThrough"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Medium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#relatedTo"/>
-        <Class IRI="#Content"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#relatedTo"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Content"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#towardInteractingWith"/>
-        <Class IRI="#ReadingResource"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#towardInteractingWith"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingResource"/>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#follows"/>
-        <ObjectProperty IRI="#preceeds"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#follows"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#preceeds"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
-        <DataProperty IRI="#age"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#age"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#analysis"/>
-        <DataProperty IRI="#activity"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#analysis"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#activity"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#dedication"/>
-        <DataProperty IRI="#engagement"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#dedication"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagement"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#focus"/>
-        <DataProperty IRI="#engagement"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#focus"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagement"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#perception"/>
-        <DataProperty IRI="#activity"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#perception"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#activity"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#performance"/>
-        <DataProperty IRI="#activity"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#performance"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#activity"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#transportation"/>
-        <DataProperty IRI="#engagement"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#transportation"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagement"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="#activity"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#activity"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#age"/>
-        <Class IRI="#Reader"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#age"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#analysis"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#analysis"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#dedication"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#dedication"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#engagement"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagement"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#focus"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#focus"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#perception"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#perception"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#performance"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#performance"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#transportation"/>
-        <Class IRI="#ReadingProcess"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#transportation"/>
+        <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#activity"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#activity"/>
         <DataOneOf>
             <Literal>dominant</Literal>
             <Literal>marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#age"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#age"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#analysis"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#analysis"/>
         <DataOneOf>
             <Literal>dominant</Literal>
             <Literal>marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#dedication"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#dedication"/>
         <DataOneOf>
             <Literal>high</Literal>
             <Literal>low</Literal>
@@ -661,7 +684,7 @@
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#engagement"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#engagement"/>
         <DataOneOf>
             <Literal>high</Literal>
             <Literal>low</Literal>
@@ -669,7 +692,7 @@
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#focus"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#focus"/>
         <DataOneOf>
             <Literal>high</Literal>
             <Literal>low</Literal>
@@ -677,21 +700,21 @@
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#perception"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#perception"/>
         <DataOneOf>
             <Literal>dominant</Literal>
             <Literal>marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#performance"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#performance"/>
         <DataOneOf>
             <Literal>dominant</Literal>
             <Literal>marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#transportation"/>
+        <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#transportation"/>
         <DataOneOf>
             <Literal>high</Literal>
             <Literal>low</Literal>
@@ -700,7 +723,7 @@
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#comparableWith</IRI>
+        <IRI>http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith</IRI>
         <Literal>Source Driven: comparison between different readings</Literal>
     </AnnotationAssertion>
 </Ontology>
