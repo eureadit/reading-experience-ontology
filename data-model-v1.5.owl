@@ -102,6 +102,15 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
     </Declaration>
     <Declaration>
@@ -172,6 +181,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#worseThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://schema.org/nationality"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#activity"/>
@@ -331,6 +343,10 @@
         <Class abbreviatedIRI="frbr:F5_Item"/>
         <Class IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#Reader"/>
     </DisjointUnion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
+        <ObjectProperty IRI="https://schema.org/nationality"/>
+    </EquivalentObjectProperties>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#betterThan"/>
         <ObjectProperty IRI="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-7#comparableWith"/>
