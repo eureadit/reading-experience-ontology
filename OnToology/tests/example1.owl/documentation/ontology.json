@@ -1,0 +1,222 @@
+[ {
+  "@id" : "http://erlangen-crm.org/current/E5_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#AestheticDisposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Alteration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Content",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Reader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Remembrance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#SelfReflection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Session",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#StateOfMedium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#coOccurringWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#engagedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#follows",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#inAStateOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#inApproaching",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#involving",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#involvingAContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#involvingAMedium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#isAStatusOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#isEffectOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#partOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#providingAccessTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#reading",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#readingThrough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#transportation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://readit-project.eu/ont/datamodel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Alteration" ],
+  "http://readit-project.eu/ont/term#partOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "covered it in brown paper"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Content" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Jane Eyre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1e1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E5_Event" ],
+  "http://readit-project.eu/ont/term#coOccurringWith" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "on the train coming back from staying with my godmother"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Medium" ],
+  "http://readit-project.eu/ont/term#providingAccessTo" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It didn’t have a cover with pictures on it"
+  }, {
+    "@value" : "It was bound, I think in, white vellum or so"
+  }, {
+    "@value" : "it was a particular edition"
+  }, {
+    "@value" : "it was my mother’s"
+  }, {
+    "@value" : "two volume edition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Reader" ],
+  "http://readit-project.eu/ont/term#age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://readit-project.eu/ont/term#engagedIn" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1"
+  } ],
+  "http://readit-project.eu/ont/term#inAStateOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4"
+  } ],
+  "http://readit-project.eu/ont/term#reading" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1"
+  } ],
+  "http://readit-project.eu/ont/term#readingThrough" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "it would have been about twelve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Session" ],
+  "http://readit-project.eu/ont/term#involvingAContent" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1"
+  } ],
+  "http://readit-project.eu/ont/term#involvingAMedium" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1"
+  } ],
+  "http://readit-project.eu/ont/term#transportation" : [ {
+    "@value" : "high"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "on the train"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#AestheticDisposition" ],
+  "http://readit-project.eu/ont/term#inApproaching" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "seemed to me rather an old fashioned book"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Remembrance" ],
+  "http://readit-project.eu/ont/term#coOccurringWith" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1"
+  } ],
+  "http://readit-project.eu/ont/term#isEffectOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I remember, I just was swallowed up by it"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#SelfReflection" ],
+  "http://readit-project.eu/ont/term#follows" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1"
+  } ],
+  "http://readit-project.eu/ont/term#isEffectOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I liked her and I, I, I wanted to follow her on her journey and on her adventure. I don’t, no, I don’t think I saw her as me"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Remembrance" ],
+  "http://readit-project.eu/ont/term#involving" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I think she’d covered it in brown paper really to sort of make me feel better about reading"
+  }, {
+    "@value" : "it was my mother’s"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#StateOfMedium" ],
+  "http://readit-project.eu/ont/term#isAStatusOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "covered it in brown paper"
+  } ]
+} ]
