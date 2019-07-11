@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://readit-project.eu/ont/datamodel">
+    <Prefix name="" IRI="http://readit-project.eu/ont/datamodel"/>
     <Prefix name="crm" IRI="http://erlangen-crm.org/current/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -15,148 +16,43 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="readit" IRI="http://readit-project.eu/ont/term#"/>
     <Declaration>
-        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+        <DataProperty abbreviatedIRI="readit:performance"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="crm:E5_Event"/>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="frbr:F1_Work"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="frbr:F2_Expression"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="frbr:F5_Item"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Achievment"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:AestheticDisposition"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Aim"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Alteration"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Content"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Disposition"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Emotion"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:EthicalDisposition"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Experience"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:GroupDisposition"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Habit"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Medium"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Reader"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Reading"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:ReadingFrame"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:ReadingProcess"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:ReadingResource"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Remembrance"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:SelfReflection"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:Session"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:SkillDisposition"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:StateOfMedium"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="readit:StateOfMind"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:betterThan"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:causingA"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:coOccurringWith"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:follows"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:habit"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
+        <DataProperty abbreviatedIRI="readit:age"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:involving"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
+        <DataProperty abbreviatedIRI="readit:transportation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:involvingAMedium"/>
+        <Class abbreviatedIRI="readit:GroupDisposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:follows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:partOf"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:StateOfMedium"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="frbr:F2_Expression"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:isAStatusOf"/>
@@ -165,64 +61,172 @@
         <ObjectProperty abbreviatedIRI="readit:isEffectOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:partOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:politicalStance"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:reading"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:readingThrough"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="readit:activity"/>
+        <Class abbreviatedIRI="readit:Disposition"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="readit:age"/>
+        <Class abbreviatedIRI="readit:ReadingFrame"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="readit:analysis"/>
+        <Class abbreviatedIRI="frbr:F1_Work"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="readit:dedication"/>
+        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="readit:engagement"/>
+        <Class abbreviatedIRI="readit:Achievment"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="readit:focus"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:ReadingResource"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:SelfReflection"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:StateOfMind"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="readit:activity"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Alteration"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:SkillDisposition"/>
+    </Declaration>
+    <Declaration>
         <DataProperty abbreviatedIRI="readit:perception"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="readit:performance"/>
+        <Class abbreviatedIRI="readit:Reader"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="readit:transportation"/>
+        <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Aim"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:ReadingProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:reading"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Habit"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:EthicalDisposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="crm:E5_Event"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Content"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:readingThrough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:coOccurringWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:betterThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:politicalStance"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="frbr:F5_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Reading"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="readit:engagement"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Emotion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="readit:analysis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:involvingAMedium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="readit:dedication"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Medium"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:habit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#commitment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:causingA"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Remembrance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:AestheticDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Session"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="crm:E5_Event"/>
@@ -651,6 +655,10 @@
         <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
+        <DataProperty IRI="#commitment"/>
+        <DataProperty abbreviatedIRI="readit:focus"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty abbreviatedIRI="readit:age"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -676,8 +684,12 @@
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty abbreviatedIRI="readit:transportation"/>
-        <DataProperty abbreviatedIRI="readit:engagement"/>
+        <DataProperty abbreviatedIRI="readit:focus"/>
     </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#commitment"/>
+        <Class abbreviatedIRI="readit:ReadingProcess"/>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty abbreviatedIRI="readit:activity"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
@@ -715,10 +727,18 @@
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </DataPropertyDomain>
     <DataPropertyRange>
+        <DataProperty IRI="#commitment"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:activity"/>
         <DataOneOf>
-            <Literal>dominant</Literal>
-            <Literal>marginal</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -728,64 +748,64 @@
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:analysis"/>
         <DataOneOf>
-            <Literal>dominant</Literal>
-            <Literal>marginal</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:dedication"/>
         <DataOneOf>
-            <Literal>high</Literal>
-            <Literal>low</Literal>
-            <Literal>medium</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:engagement"/>
         <DataOneOf>
-            <Literal>high</Literal>
-            <Literal>low</Literal>
-            <Literal>medium</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:focus"/>
         <DataOneOf>
-            <Literal>high</Literal>
-            <Literal>low</Literal>
-            <Literal>medium</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:perception"/>
         <DataOneOf>
-            <Literal>dominant</Literal>
-            <Literal>marginal</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:performance"/>
         <DataOneOf>
-            <Literal>dominant</Literal>
-            <Literal>marginal</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dominant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marginal</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:transportation"/>
         <DataOneOf>
-            <Literal>high</Literal>
-            <Literal>low</Literal>
-            <Literal>medium</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">high</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>readit:comparableWith</AbbreviatedIRI>
-        <Literal>Source Driven: comparison between different readings</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Source Driven: comparison between different readings</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
