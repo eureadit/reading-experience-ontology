@@ -91,10 +91,10 @@
         <Class abbreviatedIRI="readit:ReadingResource"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:SelfReflection"/>
+        <Class abbreviatedIRI="readit:StateOfMind"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:StateOfMind"/>
+        <Class abbreviatedIRI="readit:SelfReflection"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
@@ -112,10 +112,10 @@
         <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Aim"/>
+        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+        <Class abbreviatedIRI="readit:Aim"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
@@ -148,10 +148,10 @@
         <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Content"/>
+        <ObjectProperty abbreviatedIRI="readit:readingThrough"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:readingThrough"/>
+        <Class abbreviatedIRI="readit:Content"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:coOccurringWith"/>
@@ -193,10 +193,10 @@
         <ObjectProperty abbreviatedIRI="readit:habit"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:causingA"/>
+        <Class abbreviatedIRI="readit:Remembrance"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Remembrance"/>
+        <ObjectProperty abbreviatedIRI="readit:causingA"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
@@ -362,8 +362,26 @@
         <ObjectProperty abbreviatedIRI="readit:follows"/>
         <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:partOf"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:habit"/>
+    </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
     </InverseFunctionalObjectProperty>
     <SymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:coOccurringWith"/>
