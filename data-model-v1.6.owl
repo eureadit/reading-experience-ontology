@@ -82,6 +82,9 @@
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="crm:E3_Condition_State"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
     </Declaration>
     <Declaration>
@@ -193,6 +196,9 @@
         <ObjectProperty abbreviatedIRI="readit:habit"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="crm:E7_Activity"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="readit:Remembrance"/>
     </Declaration>
     <Declaration>
@@ -208,8 +214,16 @@
         <Class abbreviatedIRI="readit:Session"/>
     </Declaration>
     <SubClassOf>
+        <Class abbreviatedIRI="crm:E3_Condition_State"/>
+        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="crm:E5_Event"/>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="crm:E7_Activity"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="readit:Achievment"/>
@@ -257,7 +271,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="readit:Reader"/>
-        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E3_Condition_State"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="readit:Reading"/>
@@ -269,11 +283,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
-        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="readit:ReadingProcess"/>
-        <Class abbreviatedIRI="crm:E5_Event"/>
+        <Class abbreviatedIRI="crm:E7_Activity"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="readit:Remembrance"/>
@@ -293,11 +303,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="readit:StateOfMedium"/>
-        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E3_Condition_State"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="readit:StateOfMind"/>
-        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
+        <Class abbreviatedIRI="crm:E3_Condition_State"/>
     </SubClassOf>
     <DisjointClasses>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
@@ -332,7 +342,6 @@
         <Class abbreviatedIRI="readit:Medium"/>
         <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
         <Class abbreviatedIRI="frbr:F5_Item"/>
-        <Class abbreviatedIRI="readit:Reader"/>
     </DisjointUnion>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
