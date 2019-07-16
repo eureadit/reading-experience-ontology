@@ -19,6 +19,9 @@
         <ObjectProperty abbreviatedIRI="readit:situationOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
+    </Declaration>
+    <Declaration>
         <DataProperty abbreviatedIRI="readit:age"/>
     </Declaration>
     <Declaration>
@@ -43,6 +46,9 @@
         <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
     </Declaration>
     <Declaration>
@@ -50,6 +56,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="frbr:F2_Expression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:isEffectOf"/>
@@ -103,9 +112,6 @@
         <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#stateOfPerson"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="readit:Alteration"/>
     </Declaration>
     <Declaration>
@@ -113,9 +119,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:Reader"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
@@ -181,13 +184,13 @@
         <Class abbreviatedIRI="readit:Reading"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
-    </Declaration>
-    <Declaration>
         <DataProperty abbreviatedIRI="readit:engagement"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:Emotion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stateOfMind"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
@@ -350,11 +353,15 @@
         <Class abbreviatedIRI="frbr:F5_Item"/>
     </DisjointUnion>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
+        <ObjectProperty abbreviatedIRI="readit:partOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#stateOfMedium"/>
         <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#stateOfPerson"/>
+        <ObjectProperty IRI="#stateOfMind"/>
         <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -362,8 +369,8 @@
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
-        <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
+        <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
+        <ObjectProperty abbreviatedIRI="readit:partOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
@@ -378,6 +385,10 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
+        <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
     </SubObjectPropertyOf>
@@ -390,16 +401,19 @@
         <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
         <ObjectProperty IRI="#stateOfMedium"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#stateOfPerson"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
+        <ObjectProperty IRI="#stateOfMind"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:partOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
     </FunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
@@ -411,7 +425,7 @@
         <ObjectProperty abbreviatedIRI="readit:habit"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
+        <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:situationOf"/>
@@ -426,10 +440,13 @@
         <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
     </SymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#stateOfMedium"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#stateOfPerson"/>
+        <ObjectProperty IRI="#stateOfMind"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
@@ -438,16 +455,13 @@
         <ObjectProperty abbreviatedIRI="readit:causingA"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
-    </AsymmetricObjectProperty>
-    <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:follows"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
+        <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
@@ -489,6 +503,9 @@
         <ObjectProperty abbreviatedIRI="readit:situationOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
@@ -519,11 +536,15 @@
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
+        <Class abbreviatedIRI="readit:Medium"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#stateOfMedium"/>
         <Class abbreviatedIRI="readit:StateOfMedium"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#stateOfPerson"/>
+        <ObjectProperty IRI="#stateOfMind"/>
         <Class abbreviatedIRI="readit:StateOfMind"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -537,10 +558,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
         <Class abbreviatedIRI="crm:E5_Event"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
-        <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
@@ -559,7 +576,7 @@
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
+        <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -607,15 +624,23 @@
         <Class abbreviatedIRI="readit:Alteration"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
+        <Class abbreviatedIRI="readit:Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
         <Class abbreviatedIRI="readit:Disposition"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
+        <Class abbreviatedIRI="readit:StateOfMedium"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#stateOfMedium"/>
         <Class abbreviatedIRI="readit:Medium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#stateOfPerson"/>
+        <ObjectProperty IRI="#stateOfMind"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -629,10 +654,6 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
         <Class abbreviatedIRI="crm:E5_Event"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="readit:descriptionOf"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
@@ -651,7 +672,7 @@
         <Class abbreviatedIRI="readit:Habit"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="readit:inAStateOf"/>
+        <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
         <Class abbreviatedIRI="readit:StateOfMind"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -689,6 +710,10 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
         <Class abbreviatedIRI="readit:Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
