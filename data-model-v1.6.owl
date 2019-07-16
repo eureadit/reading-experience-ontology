@@ -94,6 +94,9 @@
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="frbr:F4_Manifestation_Singleton"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
     </Declaration>
     <Declaration>
@@ -353,6 +356,7 @@
     <DisjointUnion>
         <Class abbreviatedIRI="readit:Medium"/>
         <Class abbreviatedIRI="frbr:F3_Manifestation_Product_Type"/>
+        <Class abbreviatedIRI="frbr:F4_Manifestation_Singleton"/>
         <Class abbreviatedIRI="frbr:F5_Item"/>
     </DisjointUnion>
     <SubObjectPropertyOf>
