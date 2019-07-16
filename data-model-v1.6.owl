@@ -52,6 +52,9 @@
         <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
     </Declaration>
     <Declaration>
@@ -738,6 +741,13 @@
         <DataProperty abbreviatedIRI="readit:transportation"/>
         <DataProperty abbreviatedIRI="readit:engagement"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#description"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#orientation"/>
         <Class abbreviatedIRI="readit:StateOfMind"/>
@@ -754,6 +764,10 @@
         <DataProperty abbreviatedIRI="readit:transportation"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#orientation"/>
         <DataOneOf>
