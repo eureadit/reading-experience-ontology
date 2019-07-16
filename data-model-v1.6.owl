@@ -196,6 +196,9 @@
         <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#orientation"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:involvingAMedium"/>
     </Declaration>
     <Declaration>
@@ -732,6 +735,10 @@
         <DataProperty abbreviatedIRI="readit:engagement"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
+        <DataProperty IRI="#orientation"/>
+        <Class abbreviatedIRI="readit:StateOfMind"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty abbreviatedIRI="readit:age"/>
         <Class abbreviatedIRI="readit:Reader"/>
     </DataPropertyDomain>
@@ -743,6 +750,14 @@
         <DataProperty abbreviatedIRI="readit:transportation"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#orientation"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allocentric</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Autocentric</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Undefined</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="readit:age"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
