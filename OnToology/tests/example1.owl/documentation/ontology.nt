@@ -1,0 +1,189 @@
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11> <http://www.w3.org/2002/07/owl#imports> <http://readit-project.eu/ont/datamodel> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://readit-project.eu/ont/term#age
+<http://readit-project.eu/ont/term#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#coOccurringWith
+<http://readit-project.eu/ont/term#coOccurringWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#engagedIn
+<http://readit-project.eu/ont/term#engagedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#follows
+<http://readit-project.eu/ont/term#follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#inAStateOf
+<http://readit-project.eu/ont/term#inAStateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#inApproaching
+<http://readit-project.eu/ont/term#inApproaching> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#involving
+<http://readit-project.eu/ont/term#involving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#involvingAContent
+<http://readit-project.eu/ont/term#involvingAContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#involvingAMedium
+<http://readit-project.eu/ont/term#involvingAMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#isAStatusOf
+<http://readit-project.eu/ont/term#isAStatusOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#isEffectOf
+<http://readit-project.eu/ont/term#isEffectOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#partOf
+<http://readit-project.eu/ont/term#partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#providingAccessTo
+<http://readit-project.eu/ont/term#providingAccessTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#reading
+<http://readit-project.eu/ont/term#reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#readingThrough
+<http://readit-project.eu/ont/term#readingThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://readit-project.eu/ont/term#transportation
+<http://readit-project.eu/ont/term#transportation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://erlangen-crm.org/current/E5_Event
+<http://erlangen-crm.org/current/E5_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#AestheticDisposition
+<http://readit-project.eu/ont/term#AestheticDisposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#Alteration
+<http://readit-project.eu/ont/term#Alteration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#Content
+<http://readit-project.eu/ont/term#Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#Medium
+<http://readit-project.eu/ont/term#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#Reader
+<http://readit-project.eu/ont/term#Reader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#Remembrance
+<http://readit-project.eu/ont/term#Remembrance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#SelfReflection
+<http://readit-project.eu/ont/term#SelfReflection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#Session
+<http://readit-project.eu/ont/term#Session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://readit-project.eu/ont/term#StateOfMedium
+<http://readit-project.eu/ont/term#StateOfMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#Alteration> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1> <http://readit-project.eu/ont/term#partOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1> <http://www.w3.org/2000/01/rdf-schema#comment> "covered it in brown paper" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#Content> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1> <http://www.w3.org/2000/01/rdf-schema#comment> "Jane Eyre" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1e1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1e1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1e1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E5_Event> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1e1> <http://readit-project.eu/ont/term#coOccurringWith> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1e1> <http://www.w3.org/2000/01/rdf-schema#comment> "on the train coming back from staying with my godmother" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#Medium> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://readit-project.eu/ont/term#providingAccessTo> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://www.w3.org/2000/01/rdf-schema#comment> "It didn’t have a cover with pictures on it" .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://www.w3.org/2000/01/rdf-schema#comment> "It was bound, I think in, white vellum or so" .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://www.w3.org/2000/01/rdf-schema#comment> "it was a particular edition" .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://www.w3.org/2000/01/rdf-schema#comment> "it was my mother’s" .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> <http://www.w3.org/2000/01/rdf-schema#comment> "two volume edition" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#Reader> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#age> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#engagedIn> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#inAStateOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#inAStateOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#inAStateOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#inAStateOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#reading> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://readit-project.eu/ont/term#readingThrough> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1> <http://www.w3.org/2000/01/rdf-schema#comment> "it would have been about twelve" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#Session> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> <http://readit-project.eu/ont/term#involvingAContent> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> <http://readit-project.eu/ont/term#involvingAMedium> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> <http://readit-project.eu/ont/term#transportation> "high" .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> <http://www.w3.org/2000/01/rdf-schema#comment> "on the train" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#AestheticDisposition> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1> <http://readit-project.eu/ont/term#inApproaching> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1> <http://www.w3.org/2000/01/rdf-schema#comment> "seemed to me rather an old fashioned book" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#Remembrance> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2> <http://readit-project.eu/ont/term#coOccurringWith> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2> <http://readit-project.eu/ont/term#isEffectOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2> <http://www.w3.org/2000/01/rdf-schema#comment> "I remember, I just was swallowed up by it" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#SelfReflection> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3> <http://readit-project.eu/ont/term#follows> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3> <http://readit-project.eu/ont/term#isEffectOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3> <http://www.w3.org/2000/01/rdf-schema#comment> "I liked her and I, I, I wanted to follow her on her journey and on her adventure. I don’t, no, I don’t think I saw her as me" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#Remembrance> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4> <http://readit-project.eu/ont/term#involving> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4> <http://www.w3.org/2000/01/rdf-schema#comment> "I think she’d covered it in brown paper really to sort of make me feel better about reading" .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4> <http://www.w3.org/2000/01/rdf-schema#comment> "it was my mother’s" .
+# 
+# http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://readit-project.eu/ont/term#StateOfMedium> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1> <http://readit-project.eu/ont/term#isAStatusOf> <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1> .
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1> <http://www.w3.org/2000/01/rdf-schema#comment> "covered it in brown paper" .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
