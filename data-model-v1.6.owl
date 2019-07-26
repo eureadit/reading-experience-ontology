@@ -634,6 +634,9 @@
     <TransitiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
+    </TransitiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
     </IrreflexiveObjectProperty>
@@ -751,6 +754,10 @@
         <Class abbreviatedIRI="readit:Alteration"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
@@ -841,6 +848,10 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
         <Class abbreviatedIRI="readit:Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
