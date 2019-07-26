@@ -46,6 +46,9 @@
         <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:preceds"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
     </Declaration>
     <Declaration>
@@ -128,9 +131,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:Reader"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
@@ -488,7 +488,7 @@
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty abbreviatedIRI="readit:follows"/>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+        <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#descriptionOf"/>
@@ -602,7 +602,7 @@
         <ObjectProperty abbreviatedIRI="readit:partOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+        <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
@@ -632,7 +632,7 @@
         <ObjectProperty abbreviatedIRI="readit:follows"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+        <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:situationOf"/>
@@ -644,7 +644,7 @@
         <ObjectProperty abbreviatedIRI="readit:follows"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+        <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
@@ -863,7 +863,7 @@
     </ObjectPropertyRange>
     <DisjointObjectProperties>
         <ObjectProperty abbreviatedIRI="readit:follows"/>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+        <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
         <DataProperty abbreviatedIRI="readit:age"/>
