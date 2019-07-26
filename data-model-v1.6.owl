@@ -55,6 +55,9 @@
         <DataProperty IRI="#description"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#effectOf"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
     </Declaration>
     <Declaration>
@@ -127,13 +130,16 @@
         <Class abbreviatedIRI="readit:Reader"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Aim"/>
+        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+        <ObjectProperty IRI="#composedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="readit:Aim"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
@@ -142,16 +148,22 @@
         <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:reading"/>
+        <ObjectProperty IRI="#causeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
+        <ObjectProperty abbreviatedIRI="readit:reading"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:Habit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:EthicalDisposition"/>
@@ -166,10 +178,10 @@
         <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/originCountry"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Content"/>
+        <ObjectProperty abbreviatedIRI="readit:readingThrough"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:readingThrough"/>
+        <Class abbreviatedIRI="readit:Content"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:coOccurringWith"/>
@@ -202,6 +214,9 @@
         <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#about"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#orientation"/>
     </Declaration>
     <Declaration>
@@ -217,10 +232,10 @@
         <Class abbreviatedIRI="crm:E7_Activity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:causingA"/>
+        <Class abbreviatedIRI="readit:Remembrance"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Remembrance"/>
+        <ObjectProperty IRI="#descriptionOf"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
@@ -367,9 +382,21 @@
         <Class abbreviatedIRI="readit:Content"/>
         <Class abbreviatedIRI="readit:Medium"/>
     </DisjointUnion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#descriptionOf"/>
+        <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
+        <ObjectProperty IRI="#composedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#descriptionOf"/>
+        <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#inAStateOfMedium"/>
-        <ObjectProperty abbreviatedIRI="readit:partOf"/>
+        <ObjectProperty IRI="#composedBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#stateOfMedium"/>
@@ -384,8 +411,24 @@
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
+        <ObjectProperty IRI="#causeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
+        <ObjectProperty IRI="#composedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:habit"/>
+        <ObjectProperty IRI="#composedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
-        <ObjectProperty abbreviatedIRI="readit:partOf"/>
+        <ObjectProperty IRI="#composedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
+        <ObjectProperty IRI="#about"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
@@ -397,16 +440,48 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="readit:partOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:isEffectOf"/>
+        <ObjectProperty IRI="#effectOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
+        <ObjectProperty IRI="#causeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:politicalStance"/>
+        <ObjectProperty IRI="#composedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+        <ObjectProperty IRI="#about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
+        <ObjectProperty IRI="#composedBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
         <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
+        <ObjectProperty IRI="#about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
     </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causeOf"/>
+        <ObjectProperty IRI="#effectOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#composedBy"/>
+        <ObjectProperty abbreviatedIRI="readit:partOf"/>
+    </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
@@ -415,6 +490,9 @@
         <ObjectProperty abbreviatedIRI="readit:follows"/>
         <ObjectProperty abbreviatedIRI="readit:preceeds"/>
     </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#descriptionOf"/>
+    </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#inAStateOfMedium"/>
     </FunctionalObjectProperty>
@@ -425,6 +503,9 @@
         <ObjectProperty IRI="#stateOfMind"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:partOf"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -432,6 +513,9 @@
     </FunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#composedBy"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
@@ -455,6 +539,21 @@
         <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
     </SymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#about"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#causeOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#composedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#descriptionOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#effectOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#inAStateOfMedium"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
@@ -467,7 +566,7 @@
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:causingA"/>
+        <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
@@ -526,6 +625,15 @@
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
     </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#about"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:follows"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:preceeds"/>
+    </TransitiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
     </IrreflexiveObjectProperty>
@@ -551,6 +659,10 @@
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#descriptionOf"/>
+        <Class abbreviatedIRI="readit:Reader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#inAStateOfMedium"/>
         <Class abbreviatedIRI="readit:Medium"/>
     </ObjectPropertyDomain>
@@ -563,7 +675,7 @@
         <Class abbreviatedIRI="readit:StateOfMind"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="readit:causingA"/>
+        <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -647,6 +759,10 @@
         <Class abbreviatedIRI="readit:Disposition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#descriptionOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#inAStateOfMedium"/>
         <Class abbreviatedIRI="readit:StateOfMedium"/>
     </ObjectPropertyRange>
@@ -659,7 +775,7 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="readit:causingA"/>
+        <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
         <Class abbreviatedIRI="readit:StateOfMedium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -776,8 +892,8 @@
     <DataPropertyRange>
         <DataProperty IRI="#orientation"/>
         <DataOneOf>
-            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allocentric</Literal>
-            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Autocentric</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">External</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Internal</Literal>
             <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Undefined</Literal>
         </DataOneOf>
     </DataPropertyRange>
