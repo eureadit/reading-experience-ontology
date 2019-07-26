@@ -43,31 +43,31 @@
         <Class abbreviatedIRI="readit:StateOfMedium"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
+        <ObjectProperty abbreviatedIRI="readit:isPremiseOf"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#description"/>
+        <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#effectOf"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="frbr:F2_Expression"/>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#inAStateOfMedium"/>
+        <Class abbreviatedIRI="frbr:F2_Expression"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:isEffectOf"/>
@@ -97,10 +97,13 @@
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="crm:E3_Condition_State"/>
+        <ObjectProperty IRI="#isOutcomeOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="crm:E3_Condition_State"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="frbr:F4_Manifestation_Singleton"/>
@@ -109,13 +112,13 @@
         <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:ReadingResource"/>
+        <Class abbreviatedIRI="readit:StateOfMind"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:SelfReflection"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:StateOfMind"/>
+        <Class abbreviatedIRI="readit:ReadingResource"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#stateOfMedium"/>
@@ -136,10 +139,10 @@
         <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#composedBy"/>
+        <Class abbreviatedIRI="readit:Aim"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Aim"/>
+        <ObjectProperty IRI="#composedBy"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
@@ -154,10 +157,10 @@
         <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
+        <ObjectProperty abbreviatedIRI="readit:reading"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:reading"/>
+        <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:Habit"/>
@@ -232,10 +235,10 @@
         <Class abbreviatedIRI="crm:E7_Activity"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="readit:Remembrance"/>
+        <ObjectProperty IRI="#descriptionOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#descriptionOf"/>
+        <Class abbreviatedIRI="readit:Remembrance"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
@@ -378,6 +381,11 @@
         <Class abbreviatedIRI="frbr:F5_Item"/>
     </DisjointUnion>
     <DisjointUnion>
+        <Class abbreviatedIRI="readit:ReadingFrame"/>
+        <Class abbreviatedIRI="readit:Reading"/>
+        <Class abbreviatedIRI="readit:Session"/>
+    </DisjointUnion>
+    <DisjointUnion>
         <Class abbreviatedIRI="readit:ReadingResource"/>
         <Class abbreviatedIRI="readit:Content"/>
         <Class abbreviatedIRI="readit:Medium"/>
@@ -397,6 +405,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#inAStateOfMedium"/>
         <ObjectProperty IRI="#composedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+        <ObjectProperty abbreviatedIRI="readit:isEffectOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#stateOfMedium"/>
@@ -494,9 +506,6 @@
         <ObjectProperty IRI="#descriptionOf"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#inAStateOfMedium"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
         <ObjectProperty IRI="#stateOfMedium"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -515,7 +524,13 @@
         <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/occupation"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="#composedBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#inAStateOfMedium"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
@@ -525,6 +540,9 @@
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:politicalStance"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:situationOf"/>
@@ -539,7 +557,7 @@
         <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
     </SymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#about"/>
+        <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#causeOf"/>
@@ -557,6 +575,9 @@
         <ObjectProperty IRI="#inAStateOfMedium"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#stateOfMedium"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
@@ -572,7 +593,10 @@
         <ObjectProperty abbreviatedIRI="readit:engagedIn"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:follows"/>
+        <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:habit"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:inAStateOfMind"/>
@@ -602,7 +626,7 @@
         <ObjectProperty abbreviatedIRI="readit:partOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:preceds"/>
+        <ObjectProperty abbreviatedIRI="readit:politicalStance"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
@@ -635,16 +659,10 @@
         <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
+        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
     </TransitiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
-    </IrreflexiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:follows"/>
-    </IrreflexiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:worseThan"/>
@@ -668,6 +686,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#inAStateOfMedium"/>
         <Class abbreviatedIRI="readit:Medium"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+        <Class abbreviatedIRI="readit:StateOfMind"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#stateOfMedium"/>
@@ -694,10 +716,6 @@
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="readit:follows"/>
-        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
@@ -712,6 +730,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
         <Class abbreviatedIRI="readit:Disposition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:involving"/>
+        <Class abbreviatedIRI="readit:ReadingProcess"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
@@ -754,10 +776,6 @@
         <Class abbreviatedIRI="readit:Alteration"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
-        <Class abbreviatedIRI="crm:E5_Event"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
@@ -772,6 +790,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#inAStateOfMedium"/>
         <Class abbreviatedIRI="readit:StateOfMedium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+        <Class abbreviatedIRI="readit:ReadingFrame"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#stateOfMedium"/>
@@ -798,10 +820,6 @@
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="readit:follows"/>
-        <Class abbreviatedIRI="crm:E2_Temporal_Entity"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:genderIdentity"/>
         <Class IRI="http://sparql.cwrc.ca/ontologies/cwrc#Gender"/>
     </ObjectPropertyRange>
@@ -816,6 +834,10 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:involving"/>
+        <Class abbreviatedIRI="readit:ReadingResource"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:involvingAContent"/>
@@ -850,10 +872,6 @@
         <Class abbreviatedIRI="readit:Content"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
-        <Class abbreviatedIRI="crm:E5_Event"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </ObjectPropertyRange>
@@ -861,10 +879,6 @@
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
         <Class abbreviatedIRI="readit:ReadingResource"/>
     </ObjectPropertyRange>
-    <DisjointObjectProperties>
-        <ObjectProperty abbreviatedIRI="readit:follows"/>
-        <ObjectProperty abbreviatedIRI="readit:preceds"/>
-    </DisjointObjectProperties>
     <SubDataPropertyOf>
         <DataProperty abbreviatedIRI="readit:age"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
