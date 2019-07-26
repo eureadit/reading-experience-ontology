@@ -1,0 +1,108 @@
+@prefix : <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11> .
+
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11> rdf:type owl:Ontology ;
+                                                                            owl:imports <http://readit-project.eu/ont/datamodel> .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1a1
+:ex1a1 rdf:type owl:NamedIndividual ,
+                <http://readit-project.eu/ont/term#Alteration> ;
+       <http://readit-project.eu/ont/term#partOf> :ex1somed1 ;
+       rdfs:comment "covered it in brown paper" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1c1
+:ex1c1 rdf:type owl:NamedIndividual ,
+                <http://readit-project.eu/ont/term#Content> ;
+       rdfs:comment "Jane Eyre" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1e1
+:ex1e1 rdf:type owl:NamedIndividual ,
+                <http://erlangen-crm.org/current/E5_Event> ;
+       <http://readit-project.eu/ont/term#coOccurringWith> :ex1s1 ;
+       rdfs:comment "on the train coming back from staying with my godmother" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1m1
+:ex1m1 rdf:type owl:NamedIndividual ,
+                <http://readit-project.eu/ont/term#Medium> ;
+       <http://readit-project.eu/ont/term#providingAccessTo> :ex1c1 ;
+       rdfs:comment "It didn’t have a cover with pictures on it" ,
+                    "It was bound, I think in, white vellum or so" ,
+                    "it was a particular edition" ,
+                    "it was my mother’s" ,
+                    "two volume edition" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1r1
+:ex1r1 rdf:type owl:NamedIndividual ,
+                <http://readit-project.eu/ont/term#Reader> ;
+       <http://readit-project.eu/ont/term#engagedIn> :ex1s1 ;
+       <http://readit-project.eu/ont/term#inAStateOf> :ex1som1 ,
+                                                      :ex1som2 ,
+                                                      :ex1som3 ,
+                                                      :ex1som4 ;
+       <http://readit-project.eu/ont/term#reading> :ex1c1 ;
+       <http://readit-project.eu/ont/term#readingThrough> :ex1m1 ;
+       <http://readit-project.eu/ont/term#age> 12 ;
+       rdfs:comment "it would have been about twelve" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1s1
+:ex1s1 rdf:type owl:NamedIndividual ,
+                <http://readit-project.eu/ont/term#Session> ;
+       <http://readit-project.eu/ont/term#involvingAContent> :ex1c1 ;
+       <http://readit-project.eu/ont/term#involvingAMedium> :ex1m1 ;
+       <http://readit-project.eu/ont/term#transportation> "high" ;
+       rdfs:comment "on the train" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som1
+:ex1som1 rdf:type owl:NamedIndividual ,
+                  <http://readit-project.eu/ont/term#AestheticDisposition> ;
+         <http://readit-project.eu/ont/term#inApproaching> :ex1m1 ;
+         rdfs:comment "seemed to me rather an old fashioned book" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som2
+:ex1som2 rdf:type owl:NamedIndividual ,
+                  <http://readit-project.eu/ont/term#Remembrance> ;
+         <http://readit-project.eu/ont/term#coOccurringWith> :ex1s1 ;
+         <http://readit-project.eu/ont/term#isEffectOf> :ex1s1 ;
+         rdfs:comment "I remember, I just was swallowed up by it" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som3
+:ex1som3 rdf:type owl:NamedIndividual ,
+                  <http://readit-project.eu/ont/term#SelfReflection> ;
+         <http://readit-project.eu/ont/term#follows> :ex1s1 ;
+         <http://readit-project.eu/ont/term#isEffectOf> :ex1s1 ;
+         rdfs:comment "I liked her and I, I, I wanted to follow her on her journey and on her adventure. I don’t, no, I don’t think I saw her as me" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1som4
+:ex1som4 rdf:type owl:NamedIndividual ,
+                  <http://readit-project.eu/ont/term#Remembrance> ;
+         <http://readit-project.eu/ont/term#involving> :ex1a1 ;
+         rdfs:comment "I think she’d covered it in brown paper really to sort of make me feel better about reading" ,
+                      "it was my mother’s" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1somed1
+:ex1somed1 rdf:type owl:NamedIndividual ,
+                    <http://readit-project.eu/ont/term#StateOfMedium> ;
+           <http://readit-project.eu/ont/term#isAStatusOf> :ex1m1 ;
+           rdfs:comment "covered it in brown paper" .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
