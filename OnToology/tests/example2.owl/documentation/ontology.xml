@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:term="http://readit-project.eu/ont/term#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11">
+        <owl:imports rdf:resource="http://readit-project.eu/ont/datamodel"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://readit-project.eu/ont/term#coOccurringWith -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#coOccurringWith"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#habit -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#habit"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#inAStateOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#inAStateOf"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#inApproaching -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#inApproaching"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#involving -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#involving"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#involvingAContent -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#involvingAContent"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#isEffectOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#isEffectOf"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#providingAccessTo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#providingAccessTo"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#reading -->
+
+
+    <owl:AnnotationProperty rdf:about="http://readit-project.eu/ont/term#reading"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://erlangen-crm.org/current/E5_Event -->
+
+
+    <owl:Class rdf:about="http://erlangen-crm.org/current/E5_Event"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#AestheticDisposition -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#AestheticDisposition"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#Content -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#Content"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#Habit -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#Habit"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#Medium -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#Medium"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#Reader -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#Reader"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#Reading -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#Reading"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#Remembrance -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#Remembrance"/>
+    
+
+
+    <!-- http://readit-project.eu/ont/term#SelfReflection -->
+
+
+    <owl:Class rdf:about="http://readit-project.eu/ont/term#SelfReflection"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1reader1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1reader1">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Reader"/>
+        <term:habit rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit1"/>
+        <term:habit rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit2"/>
+        <term:inAStateOf rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2disposition1"/>
+        <term:inAStateOf rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind1"/>
+        <term:inAStateOf rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind2"/>
+        <term:inAStateOf rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind3"/>
+        <term:inAStateOf rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind4"/>
+        <term:reading rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Content"/>
+        <rdfs:comment>John Mandeville</rdfs:comment>
+        <rdfs:comment>The Voyage of the Dawn Treader</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2disposition1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2disposition1">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#AestheticDisposition"/>
+        <term:inApproaching rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"/>
+        <rdfs:comment>stories that already existed. I, I, for me that’s, that’s always been an interest and an, an important part of what makes a book really good</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2event1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2event1">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <term:coOccurringWith rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"/>
+        <rdfs:comment>On holiday with family</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit1">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Habit"/>
+        <rdfs:comment>stories that people in the Middle Ages, he was playing around with stories that already existed. I, I, for me that’s, that’s always been an interest and an, an important part of what makes a book really good.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit2">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Habit"/>
+        <rdfs:comment>which I always have loved</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2medium1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2medium1">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Medium"/>
+        <term:providingAccessTo rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Reading"/>
+        <term:involvingAContent rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"/>
+        <rdfs:comment>And you said you were reading that in Italy, was it?
+Yes.
+
+On holiday with family.
+With family, yes.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind1">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Remembrance"/>
+        <term:involving rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"/>
+        <rdfs:comment>I think one found that throughout the whole of that sequence, The Voyage of the Dawn Treader, to discover that John Mandeville had written that this was the, the, later, to discover that these were stories that people in the Middle Ages, he was playing around with stories that already existed</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind2">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#Remembrance"/>
+        <term:involving rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2medium1"/>
+        <rdfs:comment>I don’t remember</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind3">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#SelfReflection"/>
+        <term:coOccurringWith rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"/>
+        <term:isEffectOf rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"/>
+        <rdfs:comment>Yes, you were opening a door, just to go into another world, which I always have loved</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind4">
+        <rdf:type rdf:resource="http://readit-project.eu/ont/term#SelfReflection"/>
+        <term:coOccurringWith rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"/>
+        <term:involving rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"/>
+        <term:isEffectOf rdf:resource="http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"/>
+        <rdfs:comment>I don’t remember particularly identifying with any of the children as such. I didn’t become Peter or Edmund or Lucy or Susan, but I could recognise them and I could meet Mr Tumnus and the, the ice, you know, the queen, ah, and it was a world that was enchanted, that it, that it, I could see the hills, and it existed</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

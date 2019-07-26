@@ -1,0 +1,181 @@
+[ {
+  "@id" : "http://erlangen-crm.org/current/E5_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#AestheticDisposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Content",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Habit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Reader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Reading",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#Remembrance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#SelfReflection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#coOccurringWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#habit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#inAStateOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#inApproaching",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#involving",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#involvingAContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#isEffectOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#providingAccessTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://readit-project.eu/ont/term#reading",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://readit-project.eu/ont/datamodel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1reader1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Reader" ],
+  "http://readit-project.eu/ont/term#habit" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit1"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit2"
+  } ],
+  "http://readit-project.eu/ont/term#inAStateOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2disposition1"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind1"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind2"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind3"
+  }, {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind4"
+  } ],
+  "http://readit-project.eu/ont/term#reading" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Content" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "John Mandeville"
+  }, {
+    "@value" : "The Voyage of the Dawn Treader"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2disposition1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#AestheticDisposition" ],
+  "http://readit-project.eu/ont/term#inApproaching" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "stories that already existed. I, I, for me that’s, that’s always been an interest and an, an important part of what makes a book really good"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2event1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E5_Event" ],
+  "http://readit-project.eu/ont/term#coOccurringWith" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "On holiday with family"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Habit" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "stories that people in the Middle Ages, he was playing around with stories that already existed. I, I, for me that’s, that’s always been an interest and an, an important part of what makes a book really good."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Habit" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "which I always have loved"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2medium1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Medium" ],
+  "http://readit-project.eu/ont/term#providingAccessTo" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Reading" ],
+  "http://readit-project.eu/ont/term#involvingAContent" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "And you said you were reading that in Italy, was it?\nYes.\n\nOn holiday with family.\nWith family, yes."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Remembrance" ],
+  "http://readit-project.eu/ont/term#involving" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I think one found that throughout the whole of that sequence, The Voyage of the Dawn Treader, to discover that John Mandeville had written that this was the, the, later, to discover that these were stories that people in the Middle Ages, he was playing around with stories that already existed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#Remembrance" ],
+  "http://readit-project.eu/ont/term#involving" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2medium1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I don’t remember"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#SelfReflection" ],
+  "http://readit-project.eu/ont/term#coOccurringWith" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"
+  } ],
+  "http://readit-project.eu/ont/term#isEffectOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Yes, you were opening a door, just to go into another world, which I always have loved"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://readit-project.eu/ont/term#SelfReflection" ],
+  "http://readit-project.eu/ont/term#coOccurringWith" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"
+  } ],
+  "http://readit-project.eu/ont/term#involving" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1"
+  } ],
+  "http://readit-project.eu/ont/term#isEffectOf" : [ {
+    "@id" : "http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "I don’t remember particularly identifying with any of the children as such. I didn’t become Peter or Edmund or Lucy or Susan, but I could recognise them and I could meet Mr Tumnus and the, the ice, you know, the queen, ah, and it was a world that was enchanted, that it, that it, I could see the hills, and it existed"
+  } ]
+} ]

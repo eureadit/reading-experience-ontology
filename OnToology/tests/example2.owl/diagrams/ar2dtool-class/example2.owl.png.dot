@@ -1,0 +1,25 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"base:ex1reader1" -> "base:ex2somind3" [ label = ":inAStateOf" ];
+	"base:ex1reader1" -> "base:ex2somind4" [ label = ":inAStateOf" ];
+	"base:ex1reader1" -> "base:ex2habit1" [ label = ":habit" ];
+	"base:ex1reader1" -> "base:ex2somind2" [ label = ":inAStateOf" ];
+	"base:ex1reader1" -> "base:ex2content1" [ label = ":reading" ];
+	"base:ex1reader1" -> "base:ex2disposition1" [ label = ":inAStateOf" ];
+	"base:ex1reader1" -> "base:ex2somind1" [ label = ":inAStateOf" ];
+	"base:ex1reader1" -> "base:ex2habit2" [ label = ":habit" ];
+	"base:ex2disposition1" -> "base:ex2reading1" [ label = ":inApproaching" ];
+	"base:ex2somind4" -> "base:ex2reading1" [ label = ":isEffectOf" ];
+	"base:ex2somind4" -> "base:ex2content1" [ label = ":involving" ];
+	"base:ex2somind4" -> "base:ex2reading1" [ label = ":coOccurringWith" ];
+	"base:ex2event1" -> "base:ex2reading1" [ label = ":coOccurringWith" ];
+	"base:ex2somind2" -> "base:ex2medium1" [ label = ":involving" ];
+	"http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11" -> "http://readit-project.eu/ont/datamodel" [ label = "owl:imports" ];
+	"base:ex2somind3" -> "base:ex2reading1" [ label = ":isEffectOf" ];
+	"base:ex2somind3" -> "base:ex2reading1" [ label = ":coOccurringWith" ];
+	"base:ex2medium1" -> "base:ex2content1" [ label = ":providingAccessTo" ];
+	"base:ex2reading1" -> "base:ex2content1" [ label = ":involvingAContent" ];
+	"base:ex2somind1" -> "base:ex2content1" [ label = ":involving" ];
+
+}
