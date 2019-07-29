@@ -58,6 +58,9 @@
         <ObjectProperty IRI="#effectOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#description"/>
     </Declaration>
     <Declaration>
@@ -172,7 +175,7 @@
         <Class abbreviatedIRI="readit:EthicalDisposition"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+        <ObjectProperty IRI="#referredBy"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="crm:E5_Event"/>
@@ -411,6 +414,10 @@
         <ObjectProperty abbreviatedIRI="readit:isEffectOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#referredBy"/>
+        <ObjectProperty IRI="#about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#stateOfMedium"/>
         <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
     </SubObjectPropertyOf>
@@ -467,7 +474,7 @@
         <ObjectProperty IRI="#composedBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
         <ObjectProperty IRI="#about"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -554,7 +561,7 @@
         <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
     </SymmetricObjectProperty>
     <SymmetricObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
     </SymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="http://data.open.ac.uk/ontology/red/religion"/>
@@ -653,13 +660,16 @@
         <ObjectProperty IRI="#about"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="readit:comparableWith"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:follows"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:preceds"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
     </TransitiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty abbreviatedIRI="readit:betterThan"/>
@@ -692,12 +702,20 @@
         <Class abbreviatedIRI="readit:StateOfMind"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#referredBy"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#stateOfMedium"/>
         <Class abbreviatedIRI="readit:StateOfMedium"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#stateOfMind"/>
         <Class abbreviatedIRI="readit:StateOfMind"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:betterThan"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
@@ -772,8 +790,12 @@
         <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
         <Class abbreviatedIRI="readit:Alteration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
@@ -782,6 +804,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
         <Class abbreviatedIRI="readit:Disposition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="readit:worseThan"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#descriptionOf"/>
@@ -796,12 +822,20 @@
         <Class abbreviatedIRI="readit:ReadingFrame"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#referredBy"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#stateOfMedium"/>
         <Class abbreviatedIRI="readit:Medium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#stateOfMind"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:betterThan"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:causeOfAlteration"/>
@@ -868,8 +902,12 @@
         <Class abbreviatedIRI="readit:Medium"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="readit:relatedTo"/>
+        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
         <Class abbreviatedIRI="readit:Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:situationOf"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:stateOfReader"/>
@@ -878,6 +916,10 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:towardInteractingWith"/>
         <Class abbreviatedIRI="readit:ReadingResource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="readit:worseThan"/>
+        <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty abbreviatedIRI="readit:age"/>
