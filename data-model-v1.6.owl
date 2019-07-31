@@ -229,6 +229,9 @@
         <ObjectProperty abbreviatedIRI="readit:involvingAMedium"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#listeningTo"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="readit:Medium"/>
     </Declaration>
     <Declaration>
@@ -513,6 +516,9 @@
         <ObjectProperty IRI="#descriptionOf"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
+        <ObjectProperty IRI="#listeningTo"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
         <ObjectProperty IRI="#stateOfMedium"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -583,6 +589,9 @@
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#isOutcomeOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#listeningTo"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#stateOfMedium"/>
@@ -700,6 +709,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isOutcomeOf"/>
         <Class abbreviatedIRI="readit:StateOfMind"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#listeningTo"/>
+        <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#referredBy"/>
@@ -820,6 +833,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isOutcomeOf"/>
         <Class abbreviatedIRI="readit:ReadingFrame"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#listeningTo"/>
+        <Class abbreviatedIRI="readit:Reader"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#referredBy"/>
@@ -984,6 +1001,11 @@
             <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medium</Literal>
         </DataOneOf>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#listeningTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property addresses the context of reading aloud: reader A is listening to a reader B (reading a content).</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>readit:Achievment</AbbreviatedIRI>
