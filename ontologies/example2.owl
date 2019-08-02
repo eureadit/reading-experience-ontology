@@ -1,0 +1,110 @@
+@prefix : <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11> .
+
+<http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11> rdf:type owl:Ontology ;
+                                                                            owl:imports <http://readit-project.eu/ont/datamodel> .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex1reader1
+:ex1reader1 rdf:type owl:NamedIndividual ,
+                     <http://readit-project.eu/ont/term#Reader> ;
+            <http://readit-project.eu/ont/term#habit> :ex2habit1 ,
+                                                      :ex2habit2 ;
+            <http://readit-project.eu/ont/term#inAStateOf> :ex2disposition1 ,
+                                                           :ex2somind1 ,
+                                                           :ex2somind2 ,
+                                                           :ex2somind3 ,
+                                                           :ex2somind4 ;
+            <http://readit-project.eu/ont/term#reading> :ex2content1 .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2content1
+:ex2content1 rdf:type owl:NamedIndividual ,
+                      <http://readit-project.eu/ont/term#Content> ;
+             rdfs:comment "John Mandeville" ,
+                          "The Voyage of the Dawn Treader" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2disposition1
+:ex2disposition1 rdf:type owl:NamedIndividual ,
+                          <http://readit-project.eu/ont/term#AestheticDisposition> ;
+                 <http://readit-project.eu/ont/term#inApproaching> :ex2reading1 ;
+                 rdfs:comment "stories that already existed. I, I, for me that’s, that’s always been an interest and an, an important part of what makes a book really good" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2event1
+:ex2event1 rdf:type owl:NamedIndividual ,
+                    <http://erlangen-crm.org/current/E5_Event> ;
+           <http://readit-project.eu/ont/term#coOccurringWith> :ex2reading1 ;
+           rdfs:comment "On holiday with family" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit1
+:ex2habit1 rdf:type owl:NamedIndividual ,
+                    <http://readit-project.eu/ont/term#Habit> ;
+           rdfs:comment "stories that people in the Middle Ages, he was playing around with stories that already existed. I, I, for me that’s, that’s always been an interest and an, an important part of what makes a book really good." .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2habit2
+:ex2habit2 rdf:type owl:NamedIndividual ,
+                    <http://readit-project.eu/ont/term#Habit> ;
+           rdfs:comment "which I always have loved" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2medium1
+:ex2medium1 rdf:type owl:NamedIndividual ,
+                     <http://readit-project.eu/ont/term#Medium> ;
+            <http://readit-project.eu/ont/term#providingAccessTo> :ex2content1 .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2reading1
+:ex2reading1 rdf:type owl:NamedIndividual ,
+                      <http://readit-project.eu/ont/term#Reading> ;
+             <http://readit-project.eu/ont/term#involvingAContent> :ex2content1 ;
+             rdfs:comment """And you said you were reading that in Italy, was it?
+Yes.
+
+On holiday with family.
+With family, yes.""" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind1
+:ex2somind1 rdf:type owl:NamedIndividual ,
+                     <http://readit-project.eu/ont/term#Remembrance> ;
+            <http://readit-project.eu/ont/term#involving> :ex2content1 ;
+            rdfs:comment "I think one found that throughout the whole of that sequence, The Voyage of the Dawn Treader, to discover that John Mandeville had written that this was the, the, later, to discover that these were stories that people in the Middle Ages, he was playing around with stories that already existed" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind2
+:ex2somind2 rdf:type owl:NamedIndividual ,
+                     <http://readit-project.eu/ont/term#Remembrance> ;
+            <http://readit-project.eu/ont/term#involving> :ex2medium1 ;
+            rdfs:comment "I don’t remember" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind3
+:ex2somind3 rdf:type owl:NamedIndividual ,
+                     <http://readit-project.eu/ont/term#SelfReflection> ;
+            <http://readit-project.eu/ont/term#coOccurringWith> :ex2reading1 ;
+            <http://readit-project.eu/ont/term#isEffectOf> :ex2reading1 ;
+            rdfs:comment "Yes, you were opening a door, just to go into another world, which I always have loved" .
+
+
+###  http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11#ex2somind4
+:ex2somind4 rdf:type owl:NamedIndividual ,
+                     <http://readit-project.eu/ont/term#SelfReflection> ;
+            <http://readit-project.eu/ont/term#coOccurringWith> :ex2reading1 ;
+            <http://readit-project.eu/ont/term#involving> :ex2content1 ;
+            <http://readit-project.eu/ont/term#isEffectOf> :ex2reading1 ;
+            rdfs:comment "I don’t remember particularly identifying with any of the children as such. I didn’t become Peter or Edmund or Lucy or Susan, but I could recognise them and I could meet Mr Tumnus and the, the ice, you know, the queen, ah, and it was a world that was enchanted, that it, that it, I could see the hills, and it existed" .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

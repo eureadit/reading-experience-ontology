@@ -1,0 +1,25 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"base:ex1r1" -> "base:ex1som4" [ label = ":inAStateOf" ];
+	"base:ex1r1" -> "base:ex1c1" [ label = ":reading" ];
+	"base:ex1r1" -> "base:ex1som1" [ label = ":inAStateOf" ];
+	"base:ex1r1" -> "base:ex1som3" [ label = ":inAStateOf" ];
+	"base:ex1r1" -> "base:ex1s1" [ label = ":engagedIn" ];
+	"base:ex1r1" -> "base:ex1m1" [ label = ":readingThrough" ];
+	"base:ex1r1" -> "base:ex1som2" [ label = ":inAStateOf" ];
+	"base:ex1som2" -> "base:ex1s1" [ label = ":isEffectOf" ];
+	"base:ex1som2" -> "base:ex1s1" [ label = ":coOccurringWith" ];
+	"base:ex1m1" -> "base:ex1c1" [ label = ":providingAccessTo" ];
+	"base:ex1somed1" -> "base:ex1m1" [ label = ":isAStatusOf" ];
+	"base:ex1a1" -> "base:ex1somed1" [ label = ":partOf" ];
+	"base:ex1som3" -> "base:ex1s1" [ label = ":isEffectOf" ];
+	"base:ex1som3" -> "base:ex1s1" [ label = ":follows" ];
+	"http://www.semanticweb.org/apa224/ontologies/2019/6/untitled-ontology-11" -> "http://readit-project.eu/ont/datamodel" [ label = "owl:imports" ];
+	"base:ex1s1" -> "base:ex1m1" [ label = ":involvingAMedium" ];
+	"base:ex1s1" -> "base:ex1c1" [ label = ":involvingAContent" ];
+	"base:ex1e1" -> "base:ex1s1" [ label = ":coOccurringWith" ];
+	"base:ex1som1" -> "base:ex1m1" [ label = ":inApproaching" ];
+	"base:ex1som4" -> "base:ex1a1" [ label = ":involving" ];
+
+}
