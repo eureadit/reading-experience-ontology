@@ -1,1 +1,1 @@
-# read-it-datamodel
+# Reading Experience Ontology (REO)
