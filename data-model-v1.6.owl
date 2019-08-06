@@ -61,6 +61,9 @@
         <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#relatedToMedium"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#description"/>
     </Declaration>
     <Declaration>
@@ -421,6 +424,10 @@
         <ObjectProperty IRI="#about"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#relatedToMedium"/>
+        <ObjectProperty IRI="#about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#stateOfMedium"/>
         <ObjectProperty abbreviatedIRI="readit:isAStateOf"/>
     </SubObjectPropertyOf>
@@ -592,6 +599,9 @@
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#listeningTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#relatedToMedium"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#stateOfMedium"/>
@@ -719,6 +729,10 @@
         <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatedToMedium"/>
+        <Class abbreviatedIRI="readit:Alteration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#stateOfMedium"/>
         <Class abbreviatedIRI="readit:StateOfMedium"/>
     </ObjectPropertyDomain>
@@ -843,6 +857,10 @@
         <Class abbreviatedIRI="crm:E5_Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatedToMedium"/>
+        <Class abbreviatedIRI="readit:Medium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#stateOfMedium"/>
         <Class abbreviatedIRI="readit:Medium"/>
     </ObjectPropertyRange>
@@ -884,7 +902,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:inApproaching"/>
-        <Class abbreviatedIRI="readit:ReadingProcess"/>
+        <Class abbreviatedIRI="readit:ReadingFrame"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="readit:involving"/>
