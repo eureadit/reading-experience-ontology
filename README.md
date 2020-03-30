@@ -10,6 +10,8 @@ This repository includes two versions of REO:
 
 The latest version of REO is the V1.8. With this version we rolled back from the initial hypothesis of alignments with CIDOC-CRM to a stand-alone version.
 
+Description of REO model can be found in this [technical report](https://hal-univ-lemans.archives-ouvertes.fr/hal-02301611/document).
+
 ## READ-IT
 The JPI READ-IT (Reading Europe Advanced Data Investigation Tools) is an interdisciplinary project aiming to advance the study of reading in both understanding of the phenomenon and methods. READ-IT brings together researchers from different disciplines and case studies on different countries, languages, periods and social groups with the goals of:  
 
@@ -73,4 +75,17 @@ In this view, REO provide the following hierarchy:
 Similarly with the reading agent, REO introduce the concept of STATE_OF_MEDIUM (the partition of the dynamic features of a medium). ALTERATION is a specialisation of the STATE_OF_MEDIUM used to represent the modifications of the medium, such as notes, marginalia or damage. 
 
 ### The reading process
+The reading process is implemented considering three key distinctions: 
+
+1. The process as whole, the READING 
+2. The individual sessions in which the reader is engaged in, the SESSION 
+3. the events causing a reponse from the reader, the EXPERIENCE
+
+In this vision, EXPERIENCEs occur during SESSIONs and SESSIONs occur during a READING. All of them concern the same reader and reading resource but describe different aspects of a reading process:
+
+- EXPERIENCE are source of EFFECTs
+- SESSIONS and READING can have PREMISEs and OUTCOMEs
+- DISPOSITIONs are related to sets of SESSIONS and READING
+
+Lastly, the socio-physical-environmental context of reading is described using the concept of EVENT.
 
