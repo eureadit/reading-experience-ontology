@@ -223,13 +223,16 @@
         <ObjectProperty abbreviatedIRI="readit:providingAccessTo"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#relatedToMedium"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#description"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="readit:relatedToContent"/>
+        <DataProperty IRI="#Scope"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="readit:Disposition"/>
@@ -1230,6 +1233,10 @@
         <DataProperty IRI="#description"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
+        <DataProperty IRI="#Scope"/>
+        <Class abbreviatedIRI="readit:StateOfMind"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#commitment"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </DataPropertyDomain>
@@ -1269,6 +1276,13 @@
         <DataProperty abbreviatedIRI="readit:transportation"/>
         <Class abbreviatedIRI="readit:ReadingProcess"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Scope"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">General</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specific</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#commitment"/>
         <DataOneOf>
@@ -1511,6 +1525,18 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Religion</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Religion Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Scope</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scope of state of mind indicates the quality of the relation between state of mind and a reading resource: 1) specific, e.g. to a fragment or 2) general, e.g. to a topic.
+
+The scope of a Habit is always general.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Scope</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scope of state of mind</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
