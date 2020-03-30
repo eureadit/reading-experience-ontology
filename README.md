@@ -60,7 +60,17 @@ Furthermore, STATE_OF_MIND can have four main roles (in relation to the reading 
 4. OUTCOME of a specific reading process (following and effect of a reading)
 
 ### The reading resource
+In the description of reading resources, REO provides an upper-structure based on the FRBR conceptualisation of Work, Expression, Manifestation and Item [IFLA FRBR](https://www.ifla.org/publications/functional-requirements-for-bibliographic-records). 
 
+REO is meant to address the vagueness of testimonies of reading experience. Indeed, some testimonies provides detailled description of what the reported experience is about, e.g. a specific expression, concept, character, plot twist, while other testimonies do not provide any specific detail. 
+
+In this view, REO provide the following hierarchy:
+
+- READING_RESOURCE
+  - CONTENT (upperclass of FRBR's Work and Expression)
+  - MEDIUM (upperclass of FRBR's Manifestation and Item)
+
+Similarly with the reading agent, REO introduce the concept of STATE_OF_MEDIUM (the partition of the dynamic features of a medium). ALTERATION is a specialisation of the STATE_OF_MEDIUM used to represent the modifications of the medium, such as notes, marginalia or damage. 
 
 ### The reading process
 
