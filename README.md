@@ -32,7 +32,7 @@ REO value is firstly related to providing a common view of what is the reading p
 
 In this regard, REO had been developed combing the study of sources of reading experiences, such as transcriptions of interviews and diaries, with the engagement of READ-IT researchers. 
 
-The development followed an Agil-like approach in multiple phases and interations, from September 2018 to January 2020. More about it can be found it this [paper](http://www.semantic-web-journal.net/content/understanding-phenomenology-reading-through-modelling-0) (under review).
+The development followed an Agile-like approach in multiple phases and interations, from September 2018 to January 2020. More about it can be found it this [paper](http://www.semantic-web-journal.net/content/understanding-phenomenology-reading-through-modelling-0) (under review).
 
 ## Outline of REO
 REO covers three macro conceptual area:
