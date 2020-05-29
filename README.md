@@ -11,6 +11,9 @@ This repository includes two versions of REO:
 The latest version of REO is the V1.8. With this version we rolled back from the initial hypothesis of alignments with CIDOC-CRM to a stand-alone version.
 
 Description of REO model can be found in this [technical report](https://hal-univ-lemans.archives-ouvertes.fr/hal-02301611/document).
+ 
+![REO mind mao](/mindmap.png)
+[PDF version of the REO mind map](/mindmap.pdf)
 
 ## READ-IT
 The JPI READ-IT (Reading Europe Advanced Data Investigation Tools) is an interdisciplinary project aiming to advance the study of reading in both understanding of the phenomenon and methods. READ-IT brings together researchers from different disciplines and case studies on different countries, languages, periods and social groups with the goals of:  
