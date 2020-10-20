@@ -5,8 +5,8 @@ The Reading Experience Ontology is one of the outcome of READ-IT project. More a
 
 This repository includes two versions of REO:
 
-- V1.x, this version is a minimal, stand-alone ontology representing the consensus reached by the project on a set of key concepts and relations necessary for the study of reading experiences.
-- V2.x, this version extends V1.x including concepts not currently used and/or under evaluation. 
+- [V1.8 REO Data Model](https://github.com/eureadit/reading-experience-ontology/blob/master/data-model-v1.8.owl), this version is a minimal, stand-alone ontology representing the consensus reached by the project on a set of key concepts and relations necessary for the study of reading experiences.
+- [V2.0 REO Data Model](https://github.com/eureadit/reading-experience-ontology/blob/master/data-model-v2.owl), this version extends V1.x including concepts not currently used and/or under evaluation. 
 
 The latest version of REO is the V1.8. With this version we rolled back from the initial hypothesis of alignments with CIDOC-CRM to a stand-alone version.
 
@@ -15,7 +15,11 @@ Description of REO model can be found in this [technical report](https://hal-uni
 ![REO mind map](/mindmap.png)
 [PDF version of the REO mind map](/mindmap.pdf)
 
-In addition to the stand-alone REO data model, the READ-IT project in collaboration with the CIDOC CRM team developed an implementation of REO for the CIDOC CRM ecosystem. The first release of the REO for CIDOC CRM is available in the root folder of the project [/REO_V1.0.rdf](https://github.com/eureadit/reading-experience-ontology/blob/master/REO_V1.0.rdf). The documentation is included in the `.rdf`. 
+In addition to the stand-alone REO data model, the READ-IT project in collaboration with the CIDOC CRM team developed an implementation of REO for the CIDOC CRM ecosystem. The first release of the REO for CIDOC CRM is available in the root folder of the project [/REO_V1.0.rdf](https://github.com/eureadit/reading-experience-ontology/blob/master/REO_V1.0.rdf). 
+
+- [V1.0 REO for CIDOC CRM](https://github.com/eureadit/reading-experience-ontology/blob/master/REO_V1.0.rdf)
+
+The documentation is included in the `.rdf`. 
 
 ![REO CIDOC CRM graph](/REO-CIDOC_CRM-V1.0.png)
 [PDF version of the REO CIDOC CRM graph](/REO-CIDOC_CRM-V1.0.pdf)
