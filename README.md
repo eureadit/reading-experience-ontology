@@ -12,8 +12,13 @@ The latest version of REO is the V1.8. With this version we rolled back from the
 
 Description of REO model can be found in this [technical report](https://hal-univ-lemans.archives-ouvertes.fr/hal-02301611/document).
  
-![REO mind mao](/mindmap.png)
+![REO mind map](/mindmap.png)
 [PDF version of the REO mind map](/mindmap.pdf)
+
+In addition to the stand-alone REO data model, the READ-IT project in collaboration with the CIDOC CRM team developed an implementation of REO for the CIDOC CRM ecosystem. The first release of the REO for CIDOC CRM is available in the root folder of the project [/REO_V1.0.rdf](https://github.com/eureadit/reading-experience-ontology/blob/master/REO_V1.0.rdf). The documentation is included in the `.rdf`. 
+
+![REO CIDOC CRM graph](/REO-CIDOC_CRM-V1.0.png)
+[PDF version of the REO CIDOC CRM graph](/REO-CIDOC_CRM-V1.0.pdf)
 
 ## READ-IT
 The JPI READ-IT (Reading Europe Advanced Data Investigation Tools) is an interdisciplinary project aiming to advance the study of reading in both understanding of the phenomenon and methods. READ-IT brings together researchers from different disciplines and case studies on different countries, languages, periods and social groups with the goals of:  
@@ -37,7 +42,7 @@ In this regard, REO had been developed combing the study of sources of reading e
 
 The development followed an Agile-like approach in multiple phases and interations, from September 2018 to January 2020. More about it can be found it this [paper](http://www.semantic-web-journal.net/content/understanding-phenomenology-reading-through-modelling-0) (under review).
 
-## Outline of REO
+## Outline of REO Data Model
 REO covers three macro conceptual area:
 
 1. The reader agent
