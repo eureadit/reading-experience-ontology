@@ -1,0 +1,881 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://dataforhistory.org/read-it-ongoing/"
+     xml:base="http://dataforhistory.org/read-it-ongoing/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://dataforhistory.org/read-it-ongoing/">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label xml:lang="en">READ-IT ongoing</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exported from OntoME: READ-IT ongoing</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP1 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP1">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO11"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">has occupation</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP1</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP10 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP10">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">has outcome</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP10</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP11 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP11">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xx</rdfs:comment>
+        <rdfs:label xml:lang="en">is disposition of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP11</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP12 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP12">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO17"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:comment xml:lang="en">xx</rdfs:comment>
+        <rdfs:label xml:lang="en">is habit of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP12</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP13 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP13">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO19"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is skill of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP13</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP14 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP14">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment xml:lang="en">XXX</rdfs:comment>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP14</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP15 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP15">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO18"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is aim of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP15</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP16 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP16">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO20"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is belief of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP16</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP17 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP17">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is effect of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP17</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP18 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP18">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO21"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is feeling of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP18</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP19 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP19">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO22"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is judgement of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP19</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP2 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP2">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO10"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is nationality of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP2</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP20 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP20">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO26"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP20</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP21 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP21">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO35"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is age of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP21</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP22 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP22">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO36"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is citizenship of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP22</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP23 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP23">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO39"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is educational level</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP23</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP24 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP24">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO37"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is member of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP24</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP25 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP25">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO38"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is member of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP25</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP3 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP3">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO5"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">has gender</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP3</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP4 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP4">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO15"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment xml:lang="en">xxxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is religion of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP4</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP5 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP5">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO6"/>
+        <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is genre of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP5</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP6 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP6">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO14"/>
+        <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is provenance of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP6</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP7 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP7">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO16"/>
+        <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is status of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP7</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP8 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP8">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO4"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment xml:lang="en">xxxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is frequency of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP8</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/property/readP9 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP9">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO7"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">is intensity of</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP9</skos:notation>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO1 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO1">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the circumstances of E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Circumstances</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO1</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO10 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO10">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the nationality of E21 Person at the moment of E7 Activity or at a given time. It is considered the legal identification of belonging to one (or more) political, ethnic or linguistic groups</rdfs:comment>
+        <rdfs:label xml:lang="en">Nationality</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO10</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO11 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO11">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the occupation of E21 Person at the moment of E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Occupation</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO11</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO12 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO12">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the outcome of an action from the E39 Actor or E21 Person perspective.
+The outcome is considered direct effect or consequence resulting from E7 Activity which it follows. Outcome is considered immaterial as it mainly affects the state of mind and the condition of the E39 Actor or E21 Person. Outcome is not only consisting in a change of the state of mind but also in a change of the situation of the E39 Actor or E21 Person. There may be one or many outcomes resulting from E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Outcomes (external processes)</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO12</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO13 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO13">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the physical position or posture of E21 Person during E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Position</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO13</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO14 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO14">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify informations about how E21 Person obtained F5 Item.</rdfs:comment>
+        <rdfs:label xml:lang="en">Provenance</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO14</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO15 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO15">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the religion of E21 Person at the moment of E7 Activity or at a given time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Religion (temporal entity)</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO15</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO16 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO16">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the publication status of the F2 Expression.</rdfs:comment>
+        <rdfs:label xml:lang="en">Status</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO16</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO17 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO17">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms used to characterize a regular, habitual or inferquent practice of E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Habit</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO17</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO18 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO18">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The stated aim, objective, motivation or intention behind the reading.</rdfs:comment>
+        <rdfs:label xml:lang="en">Aim</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO18</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO19 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO19">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">Skill</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO19</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO2 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO2">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the dispositions of an act of reading from the E39 Actor or E21 Person perspective.
+Premises are considered as the set of personal immaterial dispositions (motivation, inspiration, constraint ...) that lead to the realization of an E7 activity they precede. There may be one or more premises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Disposition</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO2</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO20 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO20">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">Understanding</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO20</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO21 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO21">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">Emotions</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO21</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO22 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO22">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluative report of F2 Expression</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO22</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO23 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO23">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the emotional, intellectual, or psychological effect that the E7 Activity has on the E21 Person at the time of E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Effects (internal processes)</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO23</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO26 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO26">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-evaluative report of a F2 Expression</rdfs:comment>
+        <rdfs:label xml:lang="en">Summary</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO26</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO27 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO27">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">Mental imagery</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO27</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO28 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO28">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">Memories (textual)</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO28</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO29 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO29">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">Memories (non textual)</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO29</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO3 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO3">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the environmental conditions under which E7 Activity took place.</rdfs:comment>
+        <rdfs:label xml:lang="en">Environment</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO3</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO30 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO30">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The expectation of what F2 Expression might be like, before the actual E7 Activity has taken place. This includes anticipation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Expectations</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO30</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO31 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO31">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity of a result of E7 activity</rdfs:comment>
+        <rdfs:label xml:lang="en">Action</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO31</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO32 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO32">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:label xml:lang="en">Changes in thinking</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO32</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO33 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO33">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Produced as an intentional result of E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Outputs</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO33</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO35 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO35">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indication of age at the time of E7 Activity or at the time of report/testimonyof E7 Activity</rdfs:comment>
+        <rdfs:label xml:lang="en">Age (temporal entity)</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO35</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO36 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO36">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the legal status of being (a) a citizen of one (or more) independent states or (b) being a subject of one (or more) imperial systems.</rdfs:comment>
+        <rdfs:label xml:lang="en">Citizenship</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO36</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO37 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO37">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the identification with one or more than one distinct linguistic community</rdfs:comment>
+        <rdfs:label xml:lang="en">Linguistic communities</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO37</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO38 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO38">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the identification with one or (more than one) distinct ethnic community.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ethnic communities</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO38</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO39 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO39">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms and concepts used to characterize the level of education of the E21 Person at the time of E7 Activity, if known. Disctint from C21 Skill.</rdfs:comment>
+        <rdfs:label xml:lang="en">Educational level</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO39</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO4 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO4">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the frequency of E7 Activity registered by E21 Person. </rdfs:comment>
+        <rdfs:label xml:lang="en">Frequency</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO4</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO40 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO40">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize any information about the content or subject matter of the F2 Expression being read.</rdfs:comment>
+        <rdfs:label xml:lang="en">Subject matter</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO40</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO5 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO5">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the gender of E21 Person at the moment of E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gender</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO5</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO6 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO6">
+        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the literary genre of the F2 Expression.</rdfs:comment>
+        <rdfs:label xml:lang="en">Genre</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO6</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO7 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO7">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the level of mental engagement and concentration of E21 Person during E7 Activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Intensity</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO7</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO8 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO8">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the details of the lighting conditions under which E7 Activity took place.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lighting</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO8</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO9 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO9">
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms  used to characterize and classify the location within a specific address (or mode of transport) where E7 Activity took place.</rdfs:comment>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO9</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/F2 -->
+
+    <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F2">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the intellectual or artistic realisations of works in the form of identifiable immaterial objects, such as texts, poems, jokes, musical or choreographic notations, movement pattern, sound pattern, images, multimedia objects, or any combination of such forms that have objectively recognisable structures. The substance of F2 Expression is signs.
+Expressions cannot exist without a physical carrier, but do not depend on a specific physical carrier and can exist on one or more carriers simultaneously. Carriers may include human memory.
+Inasmuch as the form of F2 Expression is an inherent characteristic of the F2 Expression, any change in form (e.g., from alpha-numeric notation to spoken word, a poem created in capitals and rendered in lower case) is a new F2 Expression. Similarly, changes in the intellectual conventions or instruments that are employed to express a work (e.g., translation from one language to another) result in the creation of a new F2 Expression. Thus, if a text is revised or modified, the resulting F2 Expression is considered to be a new F2 Expression. Minor changes, such as corrections of spelling and punctuation, etc., are normally considered variations within the same F2 Expression. On a practical level, the degree to which distinctions are made between variant expressions of a work will depend to some extent on the nature of the F1 Work itself, and on the anticipated needs of users.
+The genre of the work may provide an indication of which features are essential to the expression. In some cases, aspects of physical form, such as typeface and page layout, are not integral to the intellectual or artistic realisation of the work as such, and therefore are not distinctive criteria for the respective expressions. For another work, features such as layout may be essential. For instance, the author or a graphic designer may wrap a poem around an image.
+An expression of a work may include expressions of other works within it. For instance, an anthology of poems is regarded as a work in its own right that makes use of expressions of the individual poems that have been selected and ordered as part of an intellectual process. This does not make the contents of the aggregated expressions part of this work, but only parts of the resulting expression.
+If an instance of F2 Expression is of a specific form, such as text, image, etc., it may be simultaneously instantiated in the specific classes representing these forms in CIDOC CRM. Thereby one can make use of the more specific properties of these classes, such as language (which is applicable to instances of E33 Linguistic Object only).</rdfs:comment>
+        <rdfs:label xml:lang="en">Expression</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/F5 -->
+
+    <owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F5">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises physical objects (printed books, scores, CDs, DVDs, CD-ROMS, etc.) that carry a F24 Publication Expression and
+			were produced by an industrial process involving an F3 Manifestation Product Type. </rdfs:comment>
+        <rdfs:label xml:lang="en">Item</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F5</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E1 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E1">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model. It is an abstract concept
+            providing for three general properties: 1. Identification by name or appellation, and in particular by a preferred identifier 2.
+            Classification by type, allowing further refinement of the specific subclass an instance belongs to 3. Attachment of free text for the
+            expression of anything not captured by formal properties With the exception of E59 Primitive Value, all other classes within the CRM are
+            directly or indirectly specialisations of E1 CRM Entity. </rdfs:comment>
+        <rdfs:label xml:lang="en">CRM Entity</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E1</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E21 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises real persons who live or are assumed to have lived. Legendary figures that may have existed, such as Ulysses and
+            King Arthur, fall into this class if the documentation refers to them as historical figures. In cases where doubt exists as to whether
+            several persons are in fact identical, multiple instances can be created and linked to indicate their relationship. The CRM does not
+            propose a specific form to support reasoning about possible identity. </rdfs:comment>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E21</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E5 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises changes of states in cultural, social or physical systems, regardless of scale, brought about by a series or
+            group of coherent physical, cultural, technological or legal phenomena. Such changes of state will affect instances of E77 Persistent Item
+            or its subclasses. The distinction between an E5 Event and an E4 Period is partly a question of the scale of observation. Viewed at a
+            coarse level of detail, an E5 Event is an ‘instantaneous’ change of state. At a fine level, the E5 Event can be analysed into its
+            component phenomena within a space and time frame, and as such can be seen as an E4 Period. The reverse is not necessarily the case: not
+            all instances of E4 Period give rise to a noteworthy change of state. </rdfs:comment>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E5</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E55 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances
+            of CRM classes. Instances of E55 Type represent concepts in contrast to instances of E41 Appellation which are used to name instances of
+            CRM classes. E55 Type is the CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses
+            of E55 Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader term (has narrower term). Such
+            hierarchies may be extended with additional properties. </rdfs:comment>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E55</skos:notation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E7 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises actions intentionally carried out by instances of E39 Actor that result in changes of state in the cultural,
+            social, or physical systems documented. This notion includes complex, composite and long-lasting actions such as the building of a
+            settlement or a war, as well as simple, short-lived actions such as the opening of a door. </rdfs:comment>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E7</skos:notation>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
