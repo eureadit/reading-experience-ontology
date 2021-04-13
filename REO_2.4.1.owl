@@ -1425,7 +1425,7 @@ An expression of a work may include expressions of other works within it. For in
 If an instance of F2 Expression is of a specific form, such as text, image, etc., it may be simultaneously instantiated in the specific classes representing these forms in CIDOC CRM. Thereby one can make use of the more specific properties of these classes, such as language (which is applicable to instances of E33 Linguistic Object only).</rdfs:comment>
         <rdfs:label xml:lang="en">F2 Expression</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</skos:notation>
-        <skos:prefLabel xml:lang="en">Propositional Object</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Resource</skos:prefLabel>
     </owl:Class>
     
 
@@ -1438,7 +1438,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 			were produced by an industrial process involving an F3 Manifestation Product Type. </rdfs:comment>
         <rdfs:label xml:lang="en">F5 Item</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F5</skos:notation>
-        <skos:prefLabel xml:lang="en">Information Carrier</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Item</skos:prefLabel>
     </owl:Class>
     
 
@@ -1451,9 +1451,99 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
             CRM classes. E55 Type is the CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses
             of E55 Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader term (has narrower term). Such
             hierarchies may be extended with additional properties. </rdfs:comment>
-        <rdfs:label xml:lang="en">Type</rdfs:label>
+        <rdfs:label xml:lang="en">E55 Type</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E55</skos:notation>
         <skos:prefLabel xml:lang="en">Type</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E21 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+        <rdfs:label xml:lang="en">E21 Person</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E21</skos:notation>
+        <skos:prefLabel xml:lang="en">Reader</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E7 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+        <rdfs:label xml:lang="en">E7 Activity</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E7</skos:notation>
+        <skos:prefLabel xml:lang="en">Act of Reading</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://erlangen-crm.org/current/E67_Birth -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/current/E67_Birth">
+        <rdfs:label xml:lang="en">E67 Birth</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E67</skos:notation>
+        <skos:prefLabel xml:lang="en">Date of Birth</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://erlangen-crm.org/current/E69_Death -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/current/E69_Death">
+        <rdfs:label xml:lang="en">E69 Death</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E69</skos:notation>
+        <skos:prefLabel xml:lang="en">Date of Death</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E53 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+        <rdfs:label xml:lang="en">E53 Place</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E53</skos:notation>
+        <skos:prefLabel xml:lang="en">Place</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E50 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E50">
+        <rdfs:label xml:lang="en">E50 Date</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E50</skos:notation>
+        <skos:prefLabel xml:lang="en">Date</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://erlangen-crm.org/current/E35_Title-->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/current/E35_Title">
+        <rdfs:label xml:lang="en">E35 Title</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E35</skos:notation>
+        <skos:prefLabel xml:lang="en">Title</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E39 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+        <rdfs:label xml:lang="en">E39 Actor</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E39</skos:notation>
+        <skos:prefLabel xml:lang="en">Author</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E56 -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E56">
+        <rdfs:label xml:lang="en">E56 Language</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E56</skos:notation>
+        <skos:prefLabel xml:lang="en">Language</skos:prefLabel>
     </owl:Class>
 </rdf:RDF>
 
