@@ -955,6 +955,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the circumstances of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO1 Circumstances</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO1</skos:notation>
+        <skos:prefLabel xml:lang="en">Circumstances</skos:prefLabel>
     </owl:Class>
     
 
@@ -966,6 +967,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the nationality of E21 Person at the moment of E7 Activity or at a given time. It is considered the legal identification of belonging to one (or more) political, ethnic or linguistic groups</rdfs:comment>
         <rdfs:label xml:lang="en">REO10 Nationality</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO10</skos:notation>
+        <skos:prefLabel xml:lang="en">Nationality</skos:prefLabel>
     </owl:Class>
     
 
@@ -977,6 +979,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the occupation of E21 Person at the moment of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO11 Occupation</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO11</skos:notation>
+        <skos:prefLabel xml:lang="en">Occupation</skos:prefLabel>
     </owl:Class>
     
 
@@ -990,6 +993,7 @@
 The outcome is considered direct effect or consequence resulting from E7 Activity which it follows. Outcome is considered immaterial as it mainly affects the state of mind and the condition of the E39 Actor or E21 Person. Outcome is not only consisting in a change of the state of mind but also in a change of the situation of the E39 Actor or E21 Person. There may be one or many outcomes resulting from E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO12_Outcomes (external processes)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO12</skos:notation>
+        <skos:prefLabel xml:lang="en">Outcomes (external processes)</skos:prefLabel>
     </owl:Class>
     
 
@@ -1002,6 +1006,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the physical position or posture of E21 Person during E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO13 Position</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO13</skos:notation>
+        <skos:prefLabel xml:lang="en">Position</skos:prefLabel>
     </owl:Class>
     
 
@@ -1013,6 +1018,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify informations about how E21 Person obtained F5 Item.</rdfs:comment>
         <rdfs:label xml:lang="en">REO14 Provenance</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO14</skos:notation>
+        <skos:prefLabel xml:lang="en">Provenance</skos:prefLabel>
     </owl:Class>
     
 
@@ -1024,6 +1030,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the religion of E21 Person at the moment of E7 Activity or at a given time.</rdfs:comment>
         <rdfs:label xml:lang="en">REO15 Religion (temporal entity)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO15</skos:notation>
+        <skos:prefLabel xml:lang="en">Religion</skos:prefLabel>
     </owl:Class>
     
 
@@ -1036,6 +1043,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the publication status of the F2 Expression.</rdfs:comment>
         <rdfs:label xml:lang="en">REO16 Status</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO16</skos:notation>
+        <skos:prefLabel xml:lang="en">Status</skos:prefLabel>
     </owl:Class>
     
 
@@ -1047,6 +1055,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms used to characterize a regular, habitual or inferquent practice of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO17 Habit</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO17</skos:notation>
+        <skos:prefLabel xml:lang="en">Habit</skos:prefLabel>
     </owl:Class>
     
 
@@ -1058,6 +1067,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The stated aim, objective, motivation or intention behind the reading.</rdfs:comment>
         <rdfs:label xml:lang="en">REO18 Aim</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO18</skos:notation>
+        <skos:prefLabel xml:lang="en">Aim</skos:prefLabel>
     </owl:Class>
     
 
@@ -1069,6 +1079,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">REO19 Skill</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO19</skos:notation>
+        <skos:prefLabel xml:lang="en">Reading Ability</skos:prefLabel>
     </owl:Class>
     
 
@@ -1081,6 +1092,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
 Premises are considered as the set of personal immaterial dispositions (motivation, inspiration, constraint ...) that lead to the realization of an E7 activity they precede. There may be one or more premises.</rdfs:comment>
         <rdfs:label xml:lang="en">REO2 Disposition</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO2</skos:notation>
+        <skos:prefLabel xml:lang="en">Disposition</skos:prefLabel>
     </owl:Class>
     
 
@@ -1092,6 +1104,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">REO20 Understanding</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO20</skos:notation>
+        <skos:prefLabel xml:lang="en">Understanding</skos:prefLabel>
     </owl:Class>
     
 
@@ -1103,6 +1116,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">REO21 Emotions</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO21</skos:notation>
+        <skos:prefLabel xml:lang="en">Emotions</skos:prefLabel>
     </owl:Class>
     
 
@@ -1114,6 +1128,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluative report of F2 Expression</rdfs:comment>
         <rdfs:label xml:lang="en">REO22 Evaluation</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO22</skos:notation>
+        <skos:prefLabel xml:lang="en">Evaluation</skos:prefLabel>
     </owl:Class>
     
 
@@ -1125,6 +1140,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the emotional, intellectual, or psychological effect that the E7 Activity has on the E21 Person at the time of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO23 Effects (internal processes)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO23</skos:notation>
+        <skos:prefLabel xml:lang="en">Effects (internal processes)</skos:prefLabel>
     </owl:Class>
     
 
@@ -1136,6 +1152,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-evaluative report of a F2 Expression</rdfs:comment>
         <rdfs:label xml:lang="en">REO26 Summary</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO26</skos:notation>
+        <skos:prefLabel xml:lang="en">Summary</skos:prefLabel>
     </owl:Class>
     
 
@@ -1147,6 +1164,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sensory perception and representation enhanced by F2 Expression </rdfs:comment>
         <rdfs:label xml:lang="en">REO27 Mental imagery</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO27</skos:notation>
+        <skos:prefLabel xml:lang="en">Mental Imagery</skos:prefLabel>
     </owl:Class>
     
 
@@ -1158,6 +1176,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the act of remembering, or the thing remembered : memory, remembrance, recollection, reminiscence of something previously done</rdfs:comment>
         <rdfs:label xml:lang="en">REO28 Memories (textual)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO28</skos:notation>
+        <skos:prefLabel xml:lang="en">Memories (of reading)</skos:prefLabel>
     </owl:Class>
     
 
@@ -1169,6 +1188,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the act of remembering, or the thing remembered: memory, remembrance, recollection, reminiscence of an event, idea, notion </rdfs:comment>
         <rdfs:label xml:lang="en">REO29 Memories (non textual)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO29</skos:notation>
+        <skos:prefLabel xml:lang="en">Memories (other)</skos:prefLabel>
     </owl:Class>
     
 
@@ -1180,6 +1200,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the environmental conditions under which E7 Activity took place.</rdfs:comment>
         <rdfs:label xml:lang="en">REO3 Environment</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO3</skos:notation>
+        <skos:prefLabel xml:lang="en">Environment</skos:prefLabel>
     </owl:Class>
     
 
@@ -1191,6 +1212,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The expectation of what F2 Expression might be like, before the actual E7 Activity has taken place. This includes anticipation.</rdfs:comment>
         <rdfs:label xml:lang="en">REO30 Expectations</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO30</skos:notation>
+        <skos:prefLabel xml:lang="en">Expectations</skos:prefLabel>
     </owl:Class>
     
 
@@ -1202,6 +1224,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity of a result of E7 activity</rdfs:comment>
         <rdfs:label xml:lang="en">REO31 Action</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO31</skos:notation>
+        <skos:prefLabel xml:lang="en">Action</skos:prefLabel>
     </owl:Class>
     
 
@@ -1213,6 +1236,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Where E7 Activity has caused a change in thinking </rdfs:comment>
         <rdfs:label xml:lang="en">REO32 Change in thinking</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO32</skos:notation>
+        <skos:prefLabel xml:lang="en">Change in Thinking</skos:prefLabel>
     </owl:Class>
     
 
@@ -1224,6 +1248,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Produced as an intentional result of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO33 Output</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO33</skos:notation>
+        <skos:prefLabel xml:lang="en">Output</skos:prefLabel>
     </owl:Class>
     
 
@@ -1235,6 +1260,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indication of age at the time of E7 Activity or at the time of report/testimonyof E7 Activity</rdfs:comment>
         <rdfs:label xml:lang="en">REO35 Age (temporal entity)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO35</skos:notation>
+        <skos:prefLabel xml:lang="en">Age</skos:prefLabel>
     </owl:Class>
     
 
@@ -1247,6 +1273,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the legal status of being (a) a citizen of one (or more) independent states or (b) being a subject of one (or more) imperial systems.</rdfs:comment>
         <rdfs:label xml:lang="en">REO36 Citizenship</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO36</skos:notation>
+        <skos:prefLabel xml:lang="en">Citizenship</skos:prefLabel>
     </owl:Class>
     
 
@@ -1258,6 +1285,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the identification with one or more than one distinct linguistic community</rdfs:comment>
         <rdfs:label xml:lang="en">REO37 Linguistic communities</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO37</skos:notation>
+        <skos:prefLabel xml:lang="en">Linguistic Communities</skos:prefLabel>
     </owl:Class>
     
 
@@ -1269,6 +1297,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the identification with one or (more than one) distinct ethnic community.</rdfs:comment>
         <rdfs:label xml:lang="en">RE038 Ethnic communities</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO38</skos:notation>
+        <skos:prefLabel xml:lang="en">Ethnic Communities</skos:prefLabel>
     </owl:Class>
     
 
@@ -1280,6 +1309,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms and concepts used to characterize the level of education of the E21 Person at the time of E7 Activity, if known. Disctint from C21 Skill.</rdfs:comment>
         <rdfs:label xml:lang="en">REO39 Educational level</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO39</skos:notation>
+        <skos:prefLabel xml:lang="en">Educational Level</skos:prefLabel>
     </owl:Class>
     
 
@@ -1291,6 +1321,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the frequency of E7 Activity registered by E21 Person. </rdfs:comment>
         <rdfs:label xml:lang="en">REO4 Frequency</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO4</skos:notation>
+        <skos:prefLabel xml:lang="en">Frequency</skos:prefLabel>
     </owl:Class>
     
 
@@ -1302,6 +1333,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize any information about the content or subject matter of the F2 Expression being read.</rdfs:comment>
         <rdfs:label xml:lang="en">REO40 Subject matter</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO40</skos:notation>
+        <skos:prefLabel xml:lang="en">Subject Matter</skos:prefLabel>
     </owl:Class>
     
 
@@ -1313,6 +1345,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the medium (physical or digital) by which F2 Expression is communicated to E21 Person. The medium (physical or digital) by which the audio recording of a text is communicated to its listener(s).</rdfs:comment>
         <rdfs:label xml:lang="en">REO41 Medium</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO41</skos:notation>
+        <skos:prefLabel xml:lang="en">Medium</skos:prefLabel>
     </owl:Class>
     
 
@@ -1324,6 +1357,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the gender of E21 Person at the moment of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO5 Gender</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO5</skos:notation>
+        <skos:prefLabel xml:lang="en">Gender</skos:prefLabel>
     </owl:Class>
     
 
@@ -1336,6 +1370,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the literary genre of the F2 Expression.</rdfs:comment>
         <rdfs:label xml:lang="en">REO6 Genre</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO6</skos:notation>
+        <skos:prefLabel xml:lang="en">Genre</skos:prefLabel>
     </owl:Class>
     
 
@@ -1347,6 +1382,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the level of mental engagement and concentration of E21 Person during E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO7 Intensity</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO7</skos:notation>
+        <skos:prefLabel xml:lang="en">Intensity</skos:prefLabel>
     </owl:Class>
     
 
@@ -1359,6 +1395,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the details of the lighting conditions under which E7 Activity took place.</rdfs:comment>
         <rdfs:label xml:lang="en">REO8 Lighting</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO8</skos:notation>
+        <skos:prefLabel xml:lang="en">Lighting</skos:prefLabel>
     </owl:Class>
     
 
@@ -1371,6 +1408,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms  used to characterize and classify the location within a specific address (or mode of transport) where E7 Activity took place.</rdfs:comment>
         <rdfs:label xml:lang="en">REO9 Location</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO9</skos:notation>
+        <skos:prefLabel xml:lang="en">Location</skos:prefLabel>
     </owl:Class>
     
 
@@ -1387,6 +1425,7 @@ An expression of a work may include expressions of other works within it. For in
 If an instance of F2 Expression is of a specific form, such as text, image, etc., it may be simultaneously instantiated in the specific classes representing these forms in CIDOC CRM. Thereby one can make use of the more specific properties of these classes, such as language (which is applicable to instances of E33 Linguistic Object only).</rdfs:comment>
         <rdfs:label xml:lang="en">F2 Expression</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</skos:notation>
+        <skos:prefLabel xml:lang="en">Propositional Object</skos:prefLabel>
     </owl:Class>
     
 
@@ -1399,6 +1438,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 			were produced by an industrial process involving an F3 Manifestation Product Type. </rdfs:comment>
         <rdfs:label xml:lang="en">F5 Item</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F5</skos:notation>
+        <skos:prefLabel xml:lang="en">Information Carrier</skos:prefLabel>
     </owl:Class>
     
 
@@ -1413,6 +1453,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
             hierarchies may be extended with additional properties. </rdfs:comment>
         <rdfs:label xml:lang="en">Type</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E55</skos:notation>
+        <skos:prefLabel xml:lang="en">Type</skos:prefLabel>
     </owl:Class>
 </rdf:RDF>
 
