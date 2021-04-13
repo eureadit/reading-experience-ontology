@@ -223,7 +223,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO19"/>
         <rdfs:label xml:lang="en">readP13i has skill</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP13i</skos:notation>
-        <skos:prefLabel xml:lang="en">has skill</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">has reading ability</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -413,7 +413,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP13 is skill of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP13</skos:notation>
-        <skos:prefLabel xml:lang="en">is skill of</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">is reading ability of of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
