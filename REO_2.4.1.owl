@@ -54,6 +54,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO35"/>
         <rdfs:label xml:lang="en">readP21i has age</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP21i</skos:notation>
+        <skos:prefLabel xml:lang="en">has age</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -66,6 +67,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO18"/>
         <rdfs:label xml:lang="en">readP15i has aim</rdfs:label>
         <skos:notation xml:lang="en">readP15i</skos:notation>
+        <skos:prefLabel xml:lang="en">has aim</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -78,6 +80,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO36"/>
         <rdfs:label xml:lang="en">readP22i has citizenship</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP22i</skos:notation>
+        <skos:prefLabel xml:lang="en">has citizenship</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -90,6 +93,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
         <rdfs:label xml:lang="en">readP11i has disposition</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP11i</skos:notation>
+        <skos:prefLabel xml:lang="en">has disposition</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -102,6 +106,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO39"/>
         <rdfs:label xml:lang="en">readP23i has educational level</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP23i</skos:notation>
+        <skos:prefLabel xml:lang="en">has educational level</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -114,6 +119,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO4"/>
         <rdfs:label xml:lang="en">readP8i has frequency</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP8i</skos:notation>
+        <skos:prefLabel xml:lang="en">has frequency</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -126,6 +132,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO6"/>
         <rdfs:label xml:lang="en">readP5i has genre</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP5i</skos:notation>
+        <skos:prefLabel xml:lang="en">has genre</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -138,6 +145,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO17"/>
         <rdfs:label xml:lang="en">readP12i has habit</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP12i</skos:notation>
+        <skos:prefLabel xml:lang="en">has habit</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -150,6 +158,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO7"/>
         <rdfs:label xml:lang="en">readP9i has intensity</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP9i</skos:notation>
+        <skos:prefLabel xml:lang="en">has intensity</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -162,6 +171,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO41"/>
         <rdfs:label xml:lang="en">readP26i has medium</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP26i</skos:notation>
+        <skos:prefLabel xml:lang="en">has medium</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -174,6 +184,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO10"/>
         <rdfs:label xml:lang="en">readP2i has nationality</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP2i</skos:notation>
+        <skos:prefLabel xml:lang="en">has nationality</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -186,6 +197,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO14"/>
         <rdfs:label xml:lang="en">readP6i has provenance</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP6i</skos:notation>
+        <skos:prefLabel xml:lang="en">has provenance</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -198,6 +210,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO15"/>
         <rdfs:label xml:lang="en">readP4i has religion</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP4i</skos:notation>
+        <skos:prefLabel xml:lang="en">has religion</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -210,6 +223,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO19"/>
         <rdfs:label xml:lang="en">readP13i has skill</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP13i</skos:notation>
+        <skos:prefLabel xml:lang="en">has skill</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -222,6 +236,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO16"/>
         <rdfs:label xml:lang="en">readP7i has status</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP7i</skos:notation>
+        <skos:prefLabel xml:lang="en">has status</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -234,6 +249,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:label xml:lang="en">readP55 is context of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP55</skos:notation>
+        <skos:prefLabel xml:lang="en">is context of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -246,6 +262,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP3i is gender of</rdfs:label>
         <skos:notation>readP3i</skos:notation>
+        <skos:prefLabel xml:lang="en">is gender of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -258,6 +275,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP1i is occupation of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP1i</skos:notation>
+        <skos:prefLabel xml:lang="en">is occupation of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -269,6 +287,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
         <rdfs:label xml:lang="en">readP55i has context</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP55i</skos:notation>
+        <skos:prefLabel xml:lang="en">has context</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -281,6 +300,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP25i has member (ethnic communities)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP25i</skos:notation>
+        <skos:prefLabel xml:lang="en">has member (ethnic communities)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -293,6 +313,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP24i has member (linguisitic communities)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP24i</skos:notation>
+        <skos:prefLabel xml:lang="en">has member (linguistic communities)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -310,6 +331,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO30"/>
         <rdfs:label xml:lang="en">readP17i has effect type</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP17i</skos:notation>
+        <skos:prefLabel xml:lang="en">has effect type</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -327,6 +349,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO33"/>
         <rdfs:label xml:lang="en">readP10i has outcome type</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP10i</skos:notation>
+        <skos:prefLabel xml:lang="en">has outcome type</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -338,6 +361,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO11"/>
         <rdfs:label xml:lang="en">readP1 has occupation</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP1</skos:notation>
+        <skos:prefLabel xml:lang="en">has occupation</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -353,6 +377,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
         <rdfs:label xml:lang="en">readP10 is outcome type of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP10</skos:notation>
+        <skos:prefLabel xml:lang="en">is outcome type of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -364,6 +389,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP11 is disposition of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP11</skos:notation>
+        <skos:prefLabel xml:lang="en">is disposition of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -375,6 +401,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
         <rdfs:label xml:lang="en">readP12 is habit of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP12</skos:notation>
+        <skos:prefLabel xml:lang="en">is habit of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -386,6 +413,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP13 is skill of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP13</skos:notation>
+        <skos:prefLabel xml:lang="en">is skill of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -397,6 +425,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
         <rdfs:label xml:lang="en">readP15 is aim of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP15</skos:notation>
+        <skos:prefLabel xml:lang="en">is aim of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -413,6 +442,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:label xml:lang="en">readP17 is effect type of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP17</skos:notation>
+        <skos:prefLabel xml:lang="en">is effect type of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -424,6 +454,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP2 is nationality of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP2</skos:notation>
+        <skos:prefLabel xml:lang="en">is nationality of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -435,6 +466,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP21 is age of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP21</skos:notation>
+        <skos:prefLabel xml:lang="en">is age of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -446,6 +478,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP22 is citizenship of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP22</skos:notation>
+        <skos:prefLabel xml:lang="en">is citizenship of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -457,6 +490,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP23 is educational level of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP23</skos:notation>
+        <skos:prefLabel xml:lang="en">is educational level of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -468,6 +502,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO37"/>
         <rdfs:label xml:lang="en">readP24 is member of (linguistic communities)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP24</skos:notation>
+        <skos:prefLabel xml:lang="en">is member of (linguistic communities)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -479,6 +514,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO38"/>
         <rdfs:label xml:lang="en">readP25 is member of (ethnic communities)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP25</skos:notation>
+        <skos:prefLabel xml:lang="en">is member of (ethnic communities)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -490,6 +526,7 @@
         <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
         <rdfs:label xml:lang="en">readP26 is medium of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP26</skos:notation>
+        <skos:prefLabel xml:lang="en">is medium of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -502,6 +539,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:label xml:lang="en">readP27 is triggered by (effects)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP27</skos:notation>
+        <skos:prefLabel xml:lang="en">is triggered by (effects)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -514,6 +552,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:label xml:lang="en">readP28 is triggered by (outcomes)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP28</skos:notation>
+        <skos:prefLabel xml:lang="en">is triggered by (outcomes)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -525,6 +564,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO5"/>
         <rdfs:label xml:lang="en">readP3 has gender</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP3</skos:notation>
+        <skos:prefLabel xml:lang="en">has gender</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -537,6 +577,7 @@
         <rdfs:comment xml:lang="en">xxxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP4 is religion of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP4</skos:notation>
+        <skos:prefLabel xml:lang="en">is religion of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -548,6 +589,7 @@
         <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:label xml:lang="en">readP5 is genre of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP5</skos:notation>
+        <skos:prefLabel xml:lang="en">is genre of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -560,6 +602,7 @@
         <rdfs:comment xml:lang="en">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP6 is provenance of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP6</skos:notation>
+        <skos:prefLabel xml:lang="en">is provenance of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -572,6 +615,7 @@
         <rdfs:comment xml:lang="en">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP7 is status of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP7</skos:notation>
+        <skos:prefLabel xml:lang="en">is status of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -584,6 +628,7 @@
         <rdfs:comment xml:lang="en">xxxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP8 is frequency of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP8</skos:notation>
+        <skos:prefLabel xml:lang="en">is frequency of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -596,6 +641,7 @@
         <rdfs:comment xml:lang="en">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP9 is intensity of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP9</skos:notation>
+        <skos:prefLabel xml:lang="en">is intensity of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -607,6 +653,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:label xml:lang="en">readP27i triggers (effects)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP27i</skos:notation>
+        <skos:prefLabel xml:lang="en">triggers (effects)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -618,6 +665,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
         <rdfs:label xml:lang="en">readP28i triggers (outcomes)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP28i</skos:notation>
+        <skos:prefLabel xml:lang="en">triggers (outcomes)</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -627,6 +675,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of">
         <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E69_Death"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:prefLabel xml:lang="en">was death of</skos:prefLabel>
     </rdf:Description>
     
 
@@ -636,6 +685,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P100i_died_in">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:range rdf:resource="http://erlangen-crm.org/current/E69_Death"/>
+        <skos:prefLabel xml:lang="en">died in</skos:prefLabel>
     </rdf:Description>
     
 
@@ -645,6 +695,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P102_has_title">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:range rdf:resource="http://erlangen-crm.org/current/E35_Title"/>
+        <skos:prefLabel xml:lang="en">has title</skos:prefLabel>
     </rdf:Description>
     
 
@@ -654,6 +705,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P102i_is_title_of">
         <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E35_Title"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <skos:prefLabel xml:lang="en">is title of</skos:prefLabel>
     </rdf:Description>
     
 
@@ -663,6 +715,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P128_carries">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+        <skos:prefLabel xml:lang="en">carries</skos:prefLabel>
     </rdf:Description>
     
 
@@ -672,6 +725,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
+        <skos:prefLabel xml:lang="en">is carried by</skos:prefLabel>
     </rdf:Description>
     
 
@@ -681,6 +735,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P129_is_about">
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO40"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <skos:prefLabel xml:lang="en">is about</skos:prefLabel>
     </rdf:Description>
     
 
@@ -690,6 +745,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO40"/>
+        <skos:prefLabel xml:lang="en">is subject of</skos:prefLabel>
     </rdf:Description>
     
 
@@ -699,6 +755,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:prefLabel xml:lang="en">carried out by</skos:prefLabel>
     </rdf:Description>
     
 
@@ -708,6 +765,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P14i_performed">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <skos:prefLabel xml:lang="en">performed</skos:prefLabel>
     </rdf:Description>
     
 
@@ -717,6 +775,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+        <skos:prefLabel xml:lang="en">was influenced by</skos:prefLabel>
     </rdf:Description>
     
 
@@ -726,6 +785,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P15i_influenced">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <skos:prefLabel xml:lang="en">influenced</skos:prefLabel>
     </rdf:Description>
     
 
@@ -735,6 +795,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+        <skos:prefLabel xml:lang="en">has time-span</skos:prefLabel>
     </rdf:Description>
     
 
@@ -744,6 +805,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P4i_is_time-span_of">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <skos:prefLabel xml:lang="en">is time-span of</skos:prefLabel>
     </rdf:Description>
     
 
@@ -756,6 +818,7 @@
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO3"/>
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO8"/>
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO9"/>
+        <skos:prefLabel xml:lang="en">consists of</skos:prefLabel>
     </rdf:Description>
     
 
@@ -768,6 +831,7 @@
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO8"/>
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO9"/>
         <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
+        <skos:prefLabel xml:lang="en">forms part of</skos:prefLabel>
     </rdf:Description>
     
 
@@ -777,6 +841,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+        <skos:prefLabel xml:lang="en">refers to</skos:prefLabel>
     </rdf:Description>
     
 
@@ -786,6 +851,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by">
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+        <skos:prefLabel xml:lang="en">is referred to by</skos:prefLabel>
     </rdf:Description>
     
 
@@ -795,6 +861,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E50_Date"/>
+        <skos:prefLabel xml:lang="en">is identified by</skos:prefLabel>
     </rdf:Description>
     
 
@@ -804,6 +871,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P78i_identifies">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E50_Date"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+        <skos:prefLabel xml:lang="en">identifies</skos:prefLabel>
     </rdf:Description>
     
 
@@ -813,6 +881,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <skos:prefLabel xml:lang="en">took place at</skos:prefLabel>
     </rdf:Description>
     
 
@@ -822,6 +891,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P7i_witnessed">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <skos:prefLabel xml:lang="en">witnessed</skos:prefLabel>
     </rdf:Description>
     
 
@@ -831,6 +901,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name"/>
+        <skos:prefLabel xml:lang="en">is identified by</skos:prefLabel>
     </rdf:Description>
     
 
@@ -840,6 +911,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P87i_identifies">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <skos:prefLabel xml:lang="en">identifies</skos:prefLabel>
     </rdf:Description>
     
 
@@ -849,6 +921,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life">
         <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E67_Birth"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:prefLabel xml:lang="en">brought into life</skos:prefLabel>
     </rdf:Description>
     
 
@@ -858,6 +931,7 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/P98i_was_born">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:range rdf:resource="http://erlangen-crm.org/current/E67_Birth"/>
+        <skos:prefLabel xml:lang="en">was born</skos:prefLabel>
     </rdf:Description>
     
 
