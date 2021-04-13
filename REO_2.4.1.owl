@@ -988,6 +988,7 @@
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO12">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO42"/>
         <owl:disjointWith rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the outcome of an action from the E39 Actor or E21 Person perspective.
 The outcome is considered direct effect or consequence resulting from E7 Activity which it follows. Outcome is considered immaterial as it mainly affects the state of mind and the condition of the E39 Actor or E21 Person. Outcome is not only consisting in a change of the state of mind but also in a change of the situation of the E39 Actor or E21 Person. There may be one or many outcomes resulting from E7 Activity.</rdfs:comment>
@@ -1137,6 +1138,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO23">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO42"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the emotional, intellectual, or psychological effect that the E7 Activity has on the E21 Person at the time of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO23 Effects (internal processes)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO23</skos:notation>
@@ -1545,6 +1547,23 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E56</skos:notation>
         <skos:prefLabel xml:lang="en">Language</skos:prefLabel>
     </owl:Class>
+
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/class/REO42 -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO42">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            Placeholder class for existing annotations made using the READ-IT skinny ontology.
+            They should be converted to instances of either REO12 or REO23.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">REO42 Effects/Outcomes</rdfs:label>
+        <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO42</skos:notation>
+        <skos:prefLabel xml:lang="en">Effects/Outcomes</skos:prefLabel>
+    </owl:Class>
+
 </rdf:RDF>
 
 
