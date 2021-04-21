@@ -574,7 +574,6 @@
     <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP4">
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO15"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
-        <rdfs:comment xml:lang="en">xxxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP4 is religion of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP4</skos:notation>
         <skos:prefLabel xml:lang="en">is religion of</skos:prefLabel>
@@ -599,7 +598,6 @@
     <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP6">
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO14"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
-        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP6 is provenance of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP6</skos:notation>
         <skos:prefLabel xml:lang="en">is provenance of</skos:prefLabel>
@@ -612,7 +610,6 @@
     <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP7">
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO16"/>
         <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
-        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP7 is status of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP7</skos:notation>
         <skos:prefLabel xml:lang="en">is status of</skos:prefLabel>
@@ -625,7 +622,6 @@
     <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP8">
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO4"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
-        <rdfs:comment xml:lang="en">xxxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP8 is frequency of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP8</skos:notation>
         <skos:prefLabel xml:lang="en">is frequency of</skos:prefLabel>
@@ -638,7 +634,6 @@
     <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/property/readP9">
         <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO7"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
-        <rdfs:comment xml:lang="en">xxx</rdfs:comment>
         <rdfs:label xml:lang="en">readP9 is intensity of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP9</skos:notation>
         <skos:prefLabel xml:lang="en">is intensity of</skos:prefLabel>
