@@ -1344,7 +1344,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO41">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the medium (physical or digital) by which F2 Expression is communicated to E21 Person. The medium (physical or digital) by which the audio recording of a text is communicated to its listener(s).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the medium (physical or digital) by which F2 Expression is communicated to E21 Person. The medium (physical or digital) by which the audio recording of a text is communicated to its listener(s).</rdfs:comment>
         <rdfs:label xml:lang="en">REO41 Medium</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO41</skos:notation>
         <skos:prefLabel xml:lang="en">Medium</skos:prefLabel>
