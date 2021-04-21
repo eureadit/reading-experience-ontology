@@ -413,7 +413,7 @@
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">readP13 is skill of</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readP13</skos:notation>
-        <skos:prefLabel xml:lang="en">is reading ability of of</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">is reading ability of</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -1077,7 +1077,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO19">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms or concepts used to characterize the level or capacity of performing E7 Activity, based on practical knowledge or know-how, and strategies, as well as trained through practice. Can be about the aptitude to understand immaterial notions, to make inferences, to create mental imagery based on E7 Activity, to act or communicate relevantly about F2 Expression</rdfs:comment>
         <rdfs:label xml:lang="en">REO19 Skill</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO19</skos:notation>
         <skos:prefLabel xml:lang="en">Reading Ability</skos:prefLabel>
@@ -1102,7 +1102,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO20">
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms or concepts used to characterize the general comprehension, awareness or knowledge resulting from E7 Activity or about E7 Activity itself.</rdfs:comment>
         <rdfs:label xml:lang="en">REO20 Understanding</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO20</skos:notation>
         <skos:prefLabel xml:lang="en">Understanding</skos:prefLabel>
@@ -1114,7 +1114,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO21">
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xxx</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms or concepts used to characterize the affective response (sentiment, appraisal, feeling) associated with E7 Activity</rdfs:comment>
         <rdfs:label xml:lang="en">REO21 Emotions</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO21</skos:notation>
         <skos:prefLabel xml:lang="en">Emotions</skos:prefLabel>
