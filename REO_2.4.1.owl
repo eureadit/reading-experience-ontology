@@ -945,7 +945,7 @@
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO1 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO1">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the circumstances of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO1 Circumstances</rdfs:label>
@@ -998,7 +998,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO13">
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the physical position or posture of E21 Person during E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO13 Position</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO13</skos:notation>
@@ -1035,7 +1035,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO16">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the publication status of the F2 Expression.</rdfs:comment>
         <rdfs:label xml:lang="en">REO16 Status</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO16</skos:notation>
@@ -1266,7 +1266,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO36">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the legal status of being (a) a citizen of one (or more) independent states or (b) being a subject of one (or more) imperial systems.</rdfs:comment>
         <rdfs:label xml:lang="en">REO36 Citizenship</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO36</skos:notation>
@@ -1363,7 +1363,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO6">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the literary genre of the F2 Expression.</rdfs:comment>
         <rdfs:label xml:lang="en">REO6 Genre</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO6</skos:notation>
@@ -1388,7 +1388,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO8">
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the details of the lighting conditions under which E7 Activity took place.</rdfs:comment>
         <rdfs:label xml:lang="en">REO8 Lighting</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO8</skos:notation>
@@ -1401,7 +1401,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO9">
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms  used to characterize and classify the location within a specific address (or mode of transport) where E7 Activity took place.</rdfs:comment>
         <rdfs:label xml:lang="en">REO9 Location</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO9</skos:notation>
@@ -1440,9 +1440,9 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E55 -->
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E55_Type -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55">
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55_Type">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances
             of CRM classes. Instances of E55 Type represent concepts in contrast to instances of E41 Appellation which are used to name instances of
             CRM classes. E55 Type is the CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses
@@ -1455,9 +1455,9 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E21 -->
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E21_Person -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21_Person">
         <rdfs:label xml:lang="en">E21 Person</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E21</skos:notation>
         <skos:prefLabel xml:lang="en">Reader</skos:prefLabel>
@@ -1465,9 +1465,9 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E7 -->
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E7_Activity -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">
         <rdfs:label xml:lang="en">E7 Activity</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E7</skos:notation>
         <skos:prefLabel xml:lang="en">Act of Reading</skos:prefLabel>
@@ -1495,9 +1495,9 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E53 -->
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E53_Place -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53_Place">
         <rdfs:label xml:lang="en">E53 Place</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E53</skos:notation>
         <skos:prefLabel xml:lang="en">Place</skos:prefLabel>
@@ -1505,9 +1505,9 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E50 -->
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E50_Date -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E50">
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E50_Date">
         <rdfs:label xml:lang="en">E50 Date</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E50</skos:notation>
         <skos:prefLabel xml:lang="en">Date</skos:prefLabel>
@@ -1525,9 +1525,9 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E39 -->
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E39_Actor -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39_Actor">
         <rdfs:label xml:lang="en">E39 Actor</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E39</skos:notation>
         <skos:prefLabel xml:lang="en">Author</skos:prefLabel>
@@ -1535,9 +1535,9 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/E56 -->
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E56_Language-->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E56">
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E56_Language">
         <rdfs:label xml:lang="en">E56 Language</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E56</skos:notation>
         <skos:prefLabel xml:lang="en">Language</skos:prefLabel>
@@ -1564,4 +1564,3 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
