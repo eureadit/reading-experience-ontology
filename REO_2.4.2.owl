@@ -1356,7 +1356,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO4 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO4">
-        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_activity"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the frequency of E7 Activity registered by E21 Person. </rdfs:comment>
         <rdfs:label xml:lang="en">REO4 Frequency</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO4</skos:notation>
@@ -1418,7 +1418,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO7 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO7">
-        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_activity"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the level of mental engagement and concentration of E21 Person during E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO7 Intensity</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO7</skos:notation>
