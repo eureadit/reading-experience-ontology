@@ -958,7 +958,7 @@
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO10 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO10">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the nationality of E21 Person at the moment of E7 Activity or at a given time. It is considered the legal identification of belonging to one (or more) political, ethnic or linguistic groups</rdfs:comment>
         <rdfs:label xml:lang="en">REO10 Nationality</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO10</skos:notation>
@@ -970,7 +970,7 @@
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO11 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO11">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the occupation of E21 Person at the moment of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO11 Occupation</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO11</skos:notation>
@@ -1022,7 +1022,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO15 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO15">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the religion of E21 Person at the moment of E7 Activity or at a given time.</rdfs:comment>
         <rdfs:label xml:lang="en">REO15 Religion (temporal entity)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO15</skos:notation>
@@ -1034,7 +1034,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO16 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO16">
-        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the publication status of the F2 Expression.</rdfs:comment>
         <rdfs:label xml:lang="en">REO16 Status</rdfs:label>
@@ -1071,7 +1071,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO19 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO19">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms or concepts used to characterize the level or capacity of performing E7 Activity, based on practical knowledge or know-how, and strategies, as well as trained through practice. Can be about the aptitude to understand immaterial notions, to make inferences, to create mental imagery based on E7 Activity, to act or communicate relevantly about F2 Expression</rdfs:comment>
         <rdfs:label xml:lang="en">REO19 Skill</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO19</skos:notation>
@@ -1083,7 +1083,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO2 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO2">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the dispositions of an act of reading from the E39 Actor or E21 Person perspective.
 Premises are considered as the set of personal immaterial dispositions (motivation, inspiration, constraint ...) that lead to the realization of an E7 activity they precede. There may be one or more premises.</rdfs:comment>
         <rdfs:label xml:lang="en">REO2 Disposition</rdfs:label>
@@ -1096,7 +1096,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO20 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO20">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms or concepts used to characterize the general comprehension, awareness or knowledge resulting from E7 Activity or about E7 Activity itself.</rdfs:comment>
         <rdfs:label xml:lang="en">REO20 Understanding</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO20</skos:notation>
@@ -1108,7 +1108,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO21 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO21">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms or concepts used to characterize the affective response (sentiment, appraisal, feeling) associated with E7 Activity</rdfs:comment>
         <rdfs:label xml:lang="en">REO21 Emotions</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO21</skos:notation>
@@ -1120,7 +1120,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO22 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO22">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluative report of F2 Expression</rdfs:comment>
         <rdfs:label xml:lang="en">REO22 Evaluation</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO22</skos:notation>
@@ -1145,7 +1145,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO26 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO26">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-evaluative report of a F2 Expression</rdfs:comment>
         <rdfs:label xml:lang="en">REO26 Summary</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO26</skos:notation>
@@ -1157,7 +1157,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO27 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO27">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sensory perception and representation enhanced by F2 Expression </rdfs:comment>
         <rdfs:label xml:lang="en">REO27 Mental imagery</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO27</skos:notation>
@@ -1169,7 +1169,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO28 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO28">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the act of remembering, or the thing remembered : memory, remembrance, recollection, reminiscence of something previously done</rdfs:comment>
         <rdfs:label xml:lang="en">REO28 Memories (textual)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO28</skos:notation>
@@ -1181,7 +1181,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO29 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO29">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the act of remembering, or the thing remembered: memory, remembrance, recollection, reminiscence of an event, idea, notion </rdfs:comment>
         <rdfs:label xml:lang="en">REO29 Memories (non textual)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO29</skos:notation>
@@ -1205,7 +1205,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO30 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO30">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO23"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The expectation of what F2 Expression might be like, before the actual E7 Activity has taken place. This includes anticipation.</rdfs:comment>
         <rdfs:label xml:lang="en">REO30 Expectations</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO30</skos:notation>
@@ -1217,7 +1217,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO31 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO31">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity of a result of E7 activity</rdfs:comment>
         <rdfs:label xml:lang="en">REO31 Action</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO31</skos:notation>
@@ -1229,7 +1229,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO32 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO32">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Where E7 Activity has caused a change in thinking </rdfs:comment>
         <rdfs:label xml:lang="en">REO32 Change in thinking</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO32</skos:notation>
@@ -1241,7 +1241,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO33 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO33">
-        <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
+        <skos:related rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO12"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Produced as an intentional result of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO33 Output</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO33</skos:notation>
@@ -1253,7 +1253,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO35 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO35">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indication of age at the time of E7 Activity or at the time of report/testimonyof E7 Activity</rdfs:comment>
         <rdfs:label xml:lang="en">REO35 Age (temporal entity)</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO35</skos:notation>
@@ -1265,7 +1265,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO36 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO36">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the legal status of being (a) a citizen of one (or more) independent states or (b) being a subject of one (or more) imperial systems.</rdfs:comment>
         <rdfs:label xml:lang="en">REO36 Citizenship</rdfs:label>
@@ -1278,7 +1278,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO37 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO37">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the identification with one or more than one distinct linguistic community</rdfs:comment>
         <rdfs:label xml:lang="en">REO37 Linguistic communities</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO37</skos:notation>
@@ -1290,7 +1290,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO38 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO38">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the identification with one or (more than one) distinct ethnic community.</rdfs:comment>
         <rdfs:label xml:lang="en">RE038 Ethnic communities</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO38</skos:notation>
@@ -1302,7 +1302,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO39 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO39">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms and concepts used to characterize the level of education of the E21 Person at the time of E7 Activity, if known. Disctint from C21 Skill.</rdfs:comment>
         <rdfs:label xml:lang="en">REO39 Educational level</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO39</skos:notation>
@@ -1314,7 +1314,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO4 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO4">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_activity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the frequency of E7 Activity registered by E21 Person. </rdfs:comment>
         <rdfs:label xml:lang="en">REO4 Frequency</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO4</skos:notation>
@@ -1326,7 +1326,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO40 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO40">
-        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize any information about the content or subject matter of the F2 Expression being read.</rdfs:comment>
         <rdfs:label xml:lang="en">REO40 Subject matter</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO40</skos:notation>
@@ -1350,7 +1350,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO5 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO5">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the gender of E21 Person at the moment of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO5 Gender</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO5</skos:notation>
@@ -1362,7 +1362,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO6 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO6">
-        <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the literary genre of the F2 Expression.</rdfs:comment>
         <rdfs:label xml:lang="en">REO6 Genre</rdfs:label>
@@ -1375,7 +1375,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO7 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO7">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_activity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the level of mental engagement and concentration of E21 Person during E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO7 Intensity</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REO7</skos:notation>
