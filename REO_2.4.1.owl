@@ -997,6 +997,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO13 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO13">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the physical position or posture of E21 Person during E7 Activity.</rdfs:comment>
@@ -1010,6 +1011,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO14 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO14">
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify informations about how E21 Person obtained F5 Item.</rdfs:comment>
         <rdfs:label xml:lang="en">REO14 Provenance</rdfs:label>
@@ -1047,6 +1049,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO17 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO17">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the terms used to characterize a regular, habitual or inferquent practice of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO17 Habit</rdfs:label>
@@ -1059,6 +1062,7 @@ The outcome is considered direct effect or consequence resulting from E7 Activit
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO18 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO18">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO2"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The stated aim, objective, motivation or intention behind the reading.</rdfs:comment>
         <rdfs:label xml:lang="en">REO18 Aim</rdfs:label>
@@ -1193,6 +1197,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO3 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO3">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the environmental conditions under which E7 Activity took place.</rdfs:comment>
         <rdfs:label xml:lang="en">REO3 Environment</rdfs:label>
@@ -1338,6 +1343,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO41 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO41">
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F5"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises the concepts and terms used to characterize the medium (physical or digital) by which F2 Expression is communicated to E21 Person. The medium (physical or digital) by which the audio recording of a text is communicated to its listener(s).</rdfs:comment>
         <rdfs:label xml:lang="en">REO41 Medium</rdfs:label>
@@ -1387,6 +1393,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO8 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO8">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms used to characterize and classify the details of the lighting conditions under which E7 Activity took place.</rdfs:comment>
@@ -1400,6 +1407,7 @@ Premises are considered as the set of personal immaterial dispositions (motivati
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO9 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO9">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:subClassOf rdf:resource="http://dataforhistory.org/read-it-ongoing/class/REO1"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms  used to characterize and classify the location within a specific address (or mode of transport) where E7 Activity took place.</rdfs:comment>
@@ -1478,6 +1486,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     <!-- http://erlangen-crm.org/current/E67_Birth -->
 
     <owl:Class rdf:about="http://erlangen-crm.org/current/E67_Birth">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">E67 Birth</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E67</skos:notation>
         <skos:prefLabel xml:lang="en">Date of Birth</skos:prefLabel>
@@ -1488,6 +1497,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     <!-- http://erlangen-crm.org/current/E69_Death -->
 
     <owl:Class rdf:about="http://erlangen-crm.org/current/E69_Death">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
         <rdfs:label xml:lang="en">E69 Death</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E69</skos:notation>
         <skos:prefLabel xml:lang="en">Date of Death</skos:prefLabel>
@@ -1498,6 +1508,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     <!-- http://www.cidoc-crm.org/cidoc-crm/E53_Place -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53_Place">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:label xml:lang="en">E53 Place</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E53</skos:notation>
         <skos:prefLabel xml:lang="en">Place</skos:prefLabel>
@@ -1508,6 +1519,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     <!-- http://www.cidoc-crm.org/cidoc-crm/E50_Date -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E50_Date">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:label xml:lang="en">E50 Date</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E50</skos:notation>
         <skos:prefLabel xml:lang="en">Date</skos:prefLabel>
@@ -1518,6 +1530,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     <!-- http://erlangen-crm.org/current/E35_Title-->
 
     <owl:Class rdf:about="http://erlangen-crm.org/current/E35_Title">
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:label xml:lang="en">E35 Title</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E35</skos:notation>
         <skos:prefLabel xml:lang="en">Title</skos:prefLabel>
@@ -1528,6 +1541,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     <!-- http://www.cidoc-crm.org/cidoc-crm/E39_Actor -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39_Actor">
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:label xml:lang="en">E39 Actor</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E39</skos:notation>
         <skos:prefLabel xml:lang="en">Author</skos:prefLabel>
@@ -1538,6 +1552,7 @@ If an instance of F2 Expression is of a specific form, such as text, image, etc.
     <!-- http://www.cidoc-crm.org/cidoc-crm/E56_Language-->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E56_Language">
+        <skos:related rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F2"/>
         <rdfs:label xml:lang="en">E56 Language</rdfs:label>
         <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E56</skos:notation>
         <skos:prefLabel xml:lang="en">Language</skos:prefLabel>
