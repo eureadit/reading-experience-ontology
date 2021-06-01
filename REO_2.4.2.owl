@@ -280,6 +280,31 @@
     
 
 
+    <!-- http://dataforhistory.org/read-it-ongoing/readP29 -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/readP29">
+        <rdfs:domain rdf:resource="http://dataforhistory.org/read-it-ongoing/REO43_Appellation_(temporal_entity)"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <rdfs:label>readP29 is appellation of</rdfs:label>
+        <skos:notation>readP29</skos:notation>
+        <skos:prefLabel xml:lang="en">is name of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dataforhistory.org/read-it-ongoing/readP29i_has_appellation -->
+
+    <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/readP29i_has_appellation">
+        <owl:inverseOf rdf:resource="http://dataforhistory.org/read-it-ongoing/readP29"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <rdfs:range rdf:resource="http://dataforhistory.org/read-it-ongoing/REO43_Appellation_(temporal_entity)"/>
+        <rdfs:label>readP29i has appellation</rdfs:label>
+        <skos:notation>readP29i</skos:notation>
+        <skos:prefLabel xml:lang="en">has name</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://dataforhistory.org/read-it-ongoing/readP56_has_context -->
 
     <owl:ObjectProperty rdf:about="http://dataforhistory.org/read-it-ongoing/readP56_has_context">
@@ -942,10 +967,22 @@
     
 
 
+    <!-- http://dataforhistory.org/read-it-ongoing/REO43_Appellation_(temporal_entity) -->
+
+    <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/REO43_Appellation_(temporal_entity)">
+        <skos:related rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+        <rdfs:comment>This class refers to the fact that a E21 Person is identified by a group using a specific appellation during a given time span.</rdfs:comment>
+        <rdfs:label>REO43 Appellation (temporal entity)</rdfs:label>
+        <skos:notation>REO43</skos:notation>
+        <skos:prefLabel xml:lang="en">Name</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://dataforhistory.org/read-it-ongoing/class/REO1 -->
 
     <owl:Class rdf:about="http://dataforhistory.org/read-it-ongoing/class/REO1">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify the circumstances of E7 Activity.</rdfs:comment>
         <rdfs:label xml:lang="en">REO1 Circumstances</rdfs:label>
